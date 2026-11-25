@@ -10,23 +10,32 @@
 <rect x="256.6" y="474.2" width="238.0" height="57.8" fill="#9a9a9a" stroke="#3a3a3a" stroke-width="1.2" fill-opacity="0.35" stroke-dasharray="4 3"/>
 <rect x="90.0" y="396.0" width="442.0" height="6.1" fill="#d9b98a" stroke="#3a3a3a" stroke-width="1.2" />
 <rect x="525.9" y="396.0" width="6.1" height="136.0" fill="#d9b98a" stroke="#3a3a3a" stroke-width="1.2" />
-<rect x="93.4" y="355.2" width="391.0" height="40.8" fill="#8fa6b8" stroke="#3a3a3a" stroke-width="1.2" /><text x="288.9" y="380.1" font-size="13" text-anchor="middle" fill="#1d1d1d">主床垫 130 × 厚12</text>
-<rect x="485.1" y="209.0" width="40.8" height="187.0" fill="#8fa6b8" stroke="#3a3a3a" stroke-width="1.2" />
-<rect x="525.9" y="209.0" width="6.1" height="187.0" fill="#d9b98a" stroke="#3a3a3a" stroke-width="1.2" />
-<text x="504.8" y="302.5" font-size="12" text-anchor="middle" fill="#1d1d1d" transform="rotate(-90 504.8 302.5)">床脚竖起=靠背</text>
-<rect x="532.0" y="419.8" width="187.0" height="112.2" fill="#c9a572" stroke="#3a3a3a" stroke-width="1.2" /><text x="625.5" y="472.3" font-size="13" text-anchor="middle" fill="#1d1d1d">座位箱</text><text x="625.5" y="488.6" font-size="13" text-anchor="middle" fill="#1d1d1d">高33</text>
-<rect x="532.0" y="409.6" width="187.0" height="10.2" fill="#5f6770" stroke="#3a3a3a" stroke-width="1.2" />
-<circle cx="600.0" cy="137.6" r="34.0" fill="none" stroke="#888" stroke-dasharray="4 3"/>
-<path d="M593.2,171.6 L579.6,402.8 L746.2,402.8 L759.8,525.2" fill="none" stroke="#888" stroke-dasharray="4 3" stroke-width="2"/>
+<rect x="93.4" y="355.2" width="436.9" height="40.8" fill="#8fa6b8" stroke="#3a3a3a" stroke-width="1.2" /><text x="311.9" y="380.1" font-size="13" text-anchor="middle" fill="#1d1d1d">主床垫 130 × 厚12</text>
+<rect x="532.0" y="168.2" width="40.8" height="187.0" fill="#8fa6b8" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="552.4" y="261.7" font-size="12" text-anchor="middle" fill="#1d1d1d" transform="rotate(-90 552.4 261.7)">床脚床垫 厚12</text>
+<rect x="572.8" y="168.2" width="6.8" height="187.0" fill="#d9b98a" stroke="#3a3a3a" stroke-width="1.2" />
+<rect x="579.6" y="181.8" width="10.2" height="159.8" fill="#5f6770" stroke="#3a3a3a" stroke-width="1.2" />
+<circle cx="532.0" cy="355.2" r="6" fill="#b02a2a"/>
+<text x="522.0" y="345.2" font-size="12" text-anchor="end" fill="#b02a2a">转轴</text>
+<text x="603.4" y="209.0" font-size="12" text-anchor="start" fill="#1d1d1d">靠背垫</text>
+<rect x="532.0" y="396.0" width="187.0" height="6.8" fill="none" stroke="#b02a2a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<rect x="532.0" y="355.2" width="187.0" height="40.8" fill="none" stroke="#b02a2a" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="654.4" y="379.0" font-size="11" text-anchor="middle" fill="#b02a2a">晚上放平的位置</text>
+<rect x="532.0" y="426.6" width="187.0" height="105.4" fill="#c9a572" stroke="#3a3a3a" stroke-width="1.2" /><text x="625.5" y="475.7" font-size="13" text-anchor="middle" fill="#1d1d1d">座位箱</text><text x="625.5" y="492.0" font-size="13" text-anchor="middle" fill="#1d1d1d">高31</text>
+<rect x="589.8" y="416.4" width="129.2" height="10.2" fill="#5f6770" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="725.0" y="423.2" font-size="11" text-anchor="start" fill="#1d1d1d">坐垫3</text>
 <rect x="532.0" y="100.2" width="187.0" height="431.8" fill="none" stroke="#8a6a3c" stroke-width="1.2" stroke-dasharray="7 5"/>
-<text x="625.5" y="130.8" font-size="12" text-anchor="middle" fill="#8a6a3c">衣柜（右侧，到顶）</text>
+<text x="652.7" y="120.6" font-size="12" text-anchor="middle" fill="#8a6a3c">衣柜（右侧，到顶）</text>
 <rect x="868.6" y="304.2" width="153.0" height="227.8" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="1.2" /><text x="945.1" y="414.5" font-size="13" text-anchor="middle" fill="#1d1d1d">厨房柜</text><text x="945.1" y="430.8" font-size="13" text-anchor="middle" fill="#1d1d1d">抽屉</text>
 <rect x="865.2" y="294.0" width="156.4" height="10.2" fill="#b98b56" stroke="#3a3a3a" stroke-width="1.2" />
 <rect x="1014.8" y="107.0" width="6.8" height="187.0" fill="#d9b98a" stroke="#3a3a3a" stroke-width="1.2" />
-<rect x="1014.8" y="158.0" width="6.8" height="74.8" fill="#cfe6f5" stroke="#3a3a3a" stroke-width="1.2" />
-<text x="980.8" y="195.4" font-size="12" text-anchor="middle" fill="#1d1d1d">小窗</text>
-<rect x="940.0" y="168.9" width="74.8" height="6.1" fill="#b98b56" stroke="#3a3a3a" stroke-width="1.2" />
-<text x="977.4" y="141.0" font-size="12" text-anchor="middle" fill="#1d1d1d">搁板</text>
+<rect x="1014.8" y="205.6" width="6.8" height="68.0" fill="#cfe6f5" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1008.0" y="239.6" font-size="12" text-anchor="end" fill="#1d1d1d">小窗</text>
+<rect x="974.0" y="249.1" width="40.8" height="4.1" fill="#b98b56" stroke="#3a3a3a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="974.0" y="208.3" width="40.8" height="4.1" fill="#b98b56" stroke="#3a3a3a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="967.2" y="192.0" font-size="11" text-anchor="end" fill="#1d1d1d">两侧置物架</text>
+<rect x="946.8" y="162.1" width="68.0" height="6.1" fill="#b98b56" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="980.8" y="134.2" font-size="12" text-anchor="middle" fill="#1d1d1d">顶部搁板</text>
 <path d="M1028.4,464.0 L1062.4,209.0 L1096.4,209.0 L1069.2,464.0 Z" fill="#5f6770" stroke="#3a3a3a"/>
 <text x="1110.0" y="328.0" font-size="12" text-anchor="middle" fill="#1d1d1d" transform="rotate(-90 1110.0 328.0)">前排座椅</text>
 <line x1="90.0" y1="572.0" x2="532.0" y2="572.0" stroke="#b02a2a" stroke-width="1"/><line x1="90.0" y1="567.0" x2="90.0" y2="577.0" stroke="#b02a2a"/><line x1="532.0" y1="567.0" x2="532.0" y2="577.0" stroke="#b02a2a"/><text x="311.0" y="567.0" font-size="13" text-anchor="middle" fill="#b02a2a">固定床 130</text>
@@ -37,7 +46,7 @@
 <line x1="940.0" y1="606.0" x2="1021.6" y2="606.0" stroke="#b02a2a" stroke-width="1"/><line x1="940.0" y1="601.0" x2="940.0" y2="611.0" stroke="#b02a2a"/><line x1="1021.6" y1="601.0" x2="1021.6" y2="611.0" stroke="#b02a2a"/><text x="980.8" y="601.0" font-size="13" text-anchor="middle" fill="#b02a2a">24</text>
 <line x1="60.0" y1="396.0" x2="60.0" y2="532.0" stroke="#b02a2a" stroke-width="1"/><line x1="55.0" y1="396.0" x2="65.0" y2="396.0" stroke="#b02a2a"/><line x1="55.0" y1="532.0" x2="65.0" y2="532.0" stroke="#b02a2a"/><text x="53.0" y="464.0" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 53.0 464.0)">床面 40</text>
 <line x1="30.0" y1="90.0" x2="30.0" y2="532.0" stroke="#b02a2a" stroke-width="1"/><line x1="25.0" y1="90.0" x2="35.0" y2="90.0" stroke="#b02a2a"/><line x1="25.0" y1="532.0" x2="35.0" y2="532.0" stroke="#b02a2a"/><text x="23.0" y="311.0" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 23.0 311.0)">中间车高 130</text>
-<line x1="668.0" y1="90.0" x2="668.0" y2="409.6" stroke="#b02a2a" stroke-width="1"/><line x1="663.0" y1="90.0" x2="673.0" y2="90.0" stroke="#b02a2a"/><line x1="663.0" y1="409.6" x2="673.0" y2="409.6" stroke="#b02a2a"/><text x="675.0" y="249.8" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 675.0 249.8)">坐高空间 94</text>
+<line x1="674.8" y1="90.0" x2="674.8" y2="416.4" stroke="#b02a2a" stroke-width="1"/><line x1="669.8" y1="90.0" x2="679.8" y2="90.0" stroke="#b02a2a"/><line x1="669.8" y1="416.4" x2="679.8" y2="416.4" stroke="#b02a2a"/><text x="681.8" y="253.2" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 681.8 253.2)">坐高空间 96</text>
 <line x1="856.6" y1="294.0" x2="856.6" y2="532.0" stroke="#b02a2a" stroke-width="1"/><line x1="851.6" y1="294.0" x2="861.6" y2="294.0" stroke="#b02a2a"/><line x1="851.6" y1="532.0" x2="861.6" y2="532.0" stroke="#b02a2a"/><text x="849.6" y="413.0" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 849.6 413.0)">台面 70</text>
 <line x1="192.0" y1="90.0" x2="192.0" y2="355.2" stroke="#b02a2a" stroke-width="1"/><line x1="187.0" y1="90.0" x2="197.0" y2="90.0" stroke="#b02a2a"/><line x1="187.0" y1="355.2" x2="197.0" y2="355.2" stroke="#b02a2a"/><text x="199.0" y="222.6" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 199.0 222.6)">床上净高 78</text>
 <text x="69.6" y="311.0" font-size="13" text-anchor="middle" fill="#6b6b6b" transform="rotate(-90 69.6 311.0)">尾门</text>
