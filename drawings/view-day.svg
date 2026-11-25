@@ -15,10 +15,12 @@
 <polygon points="284.4,712.3 183.0,653.8 183.0,479.6 284.4,538.1" fill="#b3a48b" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="284.4,712.3 529.8,570.6 529.8,396.4 284.4,538.1" fill="#cfbda1" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="284.4,538.1 529.8,396.4 428.5,337.9 183.0,479.6" fill="#e6d3b3" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
-<polygon points="293.4,696.7 520.8,565.4 520.8,516.0 293.4,647.3" fill="#f1e3c8" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
-<polygon points="293.4,642.1 520.8,510.8 520.8,461.4 293.4,592.7" fill="#f1e3c8" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
-<text x="407.1" y="555.8" font-size="12" text-anchor="middle" fill="#1d1d1d">抽屉</text>
-<polygon points="293.4,587.5 520.8,456.2 520.8,406.8 293.4,538.1" fill="#f1e3c8" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
+<polygon points="291.1,698.0 376.7,648.6 376.7,599.2 291.1,648.6" fill="#f1e3c8" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
+<polygon points="291.1,643.4 376.7,594.0 376.7,544.6 291.1,594.0" fill="#f1e3c8" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
+<text x="333.9" y="598.0" font-size="12" text-anchor="middle" fill="#1d1d1d">抽屉</text>
+<polygon points="291.1,588.8 376.7,539.4 376.7,490.0 291.1,539.4" fill="#f1e3c8" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
+<polygon points="390.2,640.8 523.0,564.1 523.0,410.7 390.2,487.4" fill="#dfe6ea" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
+<text x="456.6" y="529.8" font-size="12" text-anchor="middle" fill="#1d1d1d">冰箱位 65宽</text>
 <polygon points="286.6,539.4 183.0,479.6 183.0,471.8 286.6,531.6" fill="#906c43" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="286.6,539.4 671.7,317.1 671.7,309.3 286.6,531.6" fill="#a67d4d" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="286.6,531.6 671.7,309.3 568.1,249.5 183.0,471.8" fill="#b98b56" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
@@ -48,8 +50,8 @@
 <polygon points="667.2,605.7 568.1,548.5 568.1,374.3 667.2,431.5" fill="#b3a48b" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="667.2,605.7 768.5,547.2 768.5,373.0 667.2,431.5" fill="#cfbda1" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="667.2,431.5 768.5,373.0 669.4,315.8 568.1,374.3" fill="#e6d3b3" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
-<polygon points="660.4,591.4 574.8,542.0 574.8,422.4 660.4,471.8" fill="#dfe6ea" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
-<text x="617.6" y="510.9" font-size="12" text-anchor="middle" fill="#1d1d1d">冰箱</text>
+<polygon points="660.4,591.4 574.8,542.0 574.8,388.6 660.4,438.0" fill="#f1e3c8" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
+<text x="617.6" y="494.0" font-size="12" text-anchor="middle" fill="#1d1d1d">垃圾桶</text>
 <polygon points="667.2,434.1 568.1,376.9 568.1,369.1 667.2,426.3" fill="#906c43" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="667.2,434.1 770.7,374.3 770.7,366.5 667.2,426.3" fill="#a67d4d" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="667.2,426.3 770.7,366.5 671.7,309.3 568.1,369.1" fill="#b98b56" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
@@ -59,8 +61,10 @@
 <polygon points="764.0,692.8 854.0,640.8 854.0,310.6 764.0,362.6" fill="#b39061" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="764.0,362.6 854.0,310.6 730.2,239.1 640.1,291.1" fill="#c7a06c" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <text x="747.1" y="305.9" font-size="13" text-anchor="middle" fill="#1d1d1d" font-weight="bold">衣柜</text>
-<polygon points="646.9,607.0 723.4,562.8 723.4,253.4 646.9,297.6" fill="#d6ac74" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
-<text x="685.2" y="434.2" font-size="12" text-anchor="middle" fill="#1d1d1d">衣柜门</text>
+<polygon points="721.2,527.7 644.6,483.5 644.6,304.1 721.2,348.3" fill="#deb378" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
+<text x="682.9" y="419.9" font-size="12" text-anchor="middle" fill="#1d1d1d">柜门</text>
+<polygon points="721.2,577.1 644.6,532.9 644.6,488.7 721.2,532.9" fill="#3d4a55" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
+<text x="680.7" y="534.3" font-size="11" text-anchor="middle" fill="#ffffff">电源面板</text>
 <polygon points="597.4,789.0 473.5,717.5 473.5,636.9 597.4,708.4" fill="#9c8058" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="597.4,789.0 764.0,692.8 764.0,612.2 597.4,708.4" fill="#b49466" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="597.4,708.4 764.0,612.2 640.1,540.7 473.5,636.9" fill="#c9a572" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
@@ -98,6 +102,10 @@
 <polygon points="1056.7,755.2 1142.3,705.8 1142.3,690.2 1056.7,739.6" fill="#98a9b6" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="1056.7,739.6 1142.3,690.2 854.0,523.8 768.5,573.2" fill="#a9bccb" fill-opacity="1.0" stroke="#3a3a3a" stroke-width="1"/>
 <text x="955.4" y="636.7" font-size="13" text-anchor="middle" fill="#1d1d1d" font-weight="bold">小珵 40×130</text>
+<polygon points="1070.2,729.2 1137.7,690.2 1070.2,651.2 1002.6,690.2" fill="#ffffff" fill-opacity="0.55" stroke="#b02a2a" stroke-width="1"/>
+<text x="1070.2" y="694.2" font-size="11" text-anchor="middle" fill="#b02a2a">投衣口</text>
+<line x1="782.0" y1="391.2" x2="849.5" y2="430.2" stroke="#333" stroke-width="4"/>
+<text x="855.5" y="424.2" font-size="12" text-anchor="start" fill="#1d1d1d">挂杆</text>
 <polygon points="475.8,677.2 469.0,673.3 469.0,551.1 475.8,555.0" fill="#4a5057" fill-opacity="0.45" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="475.8,677.2 732.5,529.0 732.5,406.8 475.8,555.0" fill="#555c64" fill-opacity="0.45" stroke="#3a3a3a" stroke-width="1"/>
 <polygon points="475.8,555.0 732.5,406.8 725.7,402.9 469.0,551.1" fill="#5f6770" fill-opacity="0.45" stroke="#3a3a3a" stroke-width="1"/>
