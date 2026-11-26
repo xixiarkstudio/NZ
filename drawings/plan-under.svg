@@ -1,52 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1211" viewBox="0 0 1000 1211" font-family="WenQuanYi Zen Hei, sans-serif">
 <rect width="1000" height="1211" fill="#ffffff"/>
-<text x="500.0" y="34" font-size="24" text-anchor="middle" fill="#1d1d1d" font-weight="bold">俯视图 · 床面以下的储物</text>
+<text x="500.0" y="34" font-size="24" text-anchor="middle" fill="#1d1d1d" font-weight="bold">俯视图 · 床面以下：箱子和支撑</text>
 <rect x="290.0" y="211.6" width="523.6" height="850.0" fill="#efe9df" stroke="#6b6b6b" stroke-width="2.5" />
 <rect x="290.0" y="130.0" width="523.6" height="81.6" fill="#e3ddd2" stroke="#6b6b6b" stroke-width="2.5" />
-<rect x="813.6" y="130.0" width="57.8" height="302.6" fill="#e3ddd2" stroke="#6b6b6b" stroke-width="1.2" />
-<rect x="290.0" y="619.6" width="523.6" height="442.0" fill="#d9b98a" stroke="#3a3a3a" stroke-width="1.2" />
-<rect x="419.2" y="884.8" width="265.2" height="176.8" fill="#7c6f9b" stroke="#3a3a3a" stroke-width="1.2" /><text x="551.8" y="969.9" font-size="12" text-anchor="middle" fill="#1d1d1d">箱子1</text><text x="551.8" y="984.9" font-size="12" text-anchor="middle" fill="#1d1d1d">（床下）</text>
-<rect x="375.0" y="619.6" width="176.8" height="265.2" fill="#7c6f9b" stroke="#3a3a3a" stroke-width="1.2" /><text x="463.4" y="748.9" font-size="12" text-anchor="middle" fill="#1d1d1d">箱子2</text><text x="463.4" y="763.9" font-size="12" text-anchor="middle" fill="#1d1d1d">78×52×32</text>
-<rect x="551.8" y="619.6" width="176.8" height="265.2" fill="#7c6f9b" stroke="#3a3a3a" stroke-width="1.2" /><text x="640.2" y="756.4" font-size="12" text-anchor="middle" fill="#1d1d1d">箱子3</text>
+<rect x="813.6" y="130.0" width="57.8" height="326.4" fill="#e3ddd2" stroke="#6b6b6b" stroke-width="1.2" />
+<rect x="290.0" y="643.4" width="523.6" height="418.2" fill="#d9b98a" stroke="#3a3a3a" stroke-width="1.2" />
+<rect x="388.6" y="643.4" width="163.2" height="275.4" fill="#7c6f9b" stroke="#3a3a3a" stroke-width="1.2" /><text x="470.2" y="777.8" font-size="12" text-anchor="middle" fill="#1d1d1d">28寸软箱</text><text x="470.2" y="792.8" font-size="12" text-anchor="middle" fill="#1d1d1d">81×48×29</text>
+<rect x="551.8" y="643.4" width="163.2" height="275.4" fill="#7c6f9b" stroke="#3a3a3a" stroke-width="1.2" /><text x="633.4" y="777.8" font-size="12" text-anchor="middle" fill="#1d1d1d">28寸黑色</text><text x="633.4" y="792.8" font-size="12" text-anchor="middle" fill="#1d1d1d">81×48×29</text>
+<rect x="307.0" y="929.0" width="224.4" height="132.6" fill="#7c6f9b" stroke="#3a3a3a" stroke-width="1.2" /><text x="419.2" y="992.0" font-size="12" text-anchor="middle" fill="#1d1d1d">24寸</text><text x="419.2" y="1007.0" font-size="12" text-anchor="middle" fill="#1d1d1d">66×39×31.5</text>
+<rect x="531.4" y="918.8" width="159.8" height="142.8" fill="#7c6f9b" stroke="#3a3a3a" stroke-width="1.2" /><text x="611.3" y="986.9" font-size="12" text-anchor="middle" fill="#1d1d1d">20寸</text><text x="611.3" y="1001.9" font-size="12" text-anchor="middle" fill="#1d1d1d">47×42×27</text>
 <rect x="290.0" y="657.0" width="71.4" height="238.0" fill="#9a9a9a" stroke="#3a3a3a" stroke-width="1.2" fill-opacity="0.7"/><text x="325.7" y="779.9" font-size="11" text-anchor="middle" fill="#1d1d1d">轮拱</text>
 <rect x="742.2" y="657.0" width="71.4" height="238.0" fill="#9a9a9a" stroke="#3a3a3a" stroke-width="1.2" fill-opacity="0.7"/><text x="777.9" y="779.9" font-size="11" text-anchor="middle" fill="#1d1d1d">轮拱</text>
-<text x="354.6" y="983.8" font-size="11" text-anchor="middle" fill="#1d1d1d">尾格</text><text x="354.6" y="997.5" font-size="11" text-anchor="middle" fill="#1d1d1d">38×49</text>
-<text x="749.0" y="983.8" font-size="11" text-anchor="middle" fill="#1d1d1d">脏衣格</text><text x="749.0" y="997.5" font-size="11" text-anchor="middle" fill="#1d1d1d">38×49</text>
-<rect x="290.0" y="432.6" width="136.0" height="187.0" fill="#f4f4f1" stroke="#3a3a3a" stroke-width="1.2" /><text x="358.0" y="522.5" font-size="13" text-anchor="middle" fill="#1d1d1d">马桶</text><text x="358.0" y="538.8" font-size="13" text-anchor="middle" fill="#1d1d1d">高≤32</text>
-<rect x="426.0" y="432.6" width="251.6" height="187.0" fill="#c9a572" stroke="#3a3a3a" stroke-width="1.2" /><text x="551.8" y="522.2" font-size="14" text-anchor="middle" fill="#1d1d1d">座位箱内部</text><text x="551.8" y="539.7" font-size="14" text-anchor="middle" fill="#1d1d1d">74 × 55 × 高29</text>
-<text x="330.8" y="640.4" font-size="11" text-anchor="middle" fill="#1d1d1d">侧槽</text>
-<text x="772.8" y="640.4" font-size="11" text-anchor="middle" fill="#1d1d1d">侧槽</text>
-<rect x="677.6" y="432.6" width="136.0" height="187.0" fill="#c7a06c" stroke="#3a3a3a" stroke-width="2" /><text x="745.6" y="514.4" font-size="13" text-anchor="middle" fill="#1d1d1d">衣柜</text><text x="745.6" y="530.6" font-size="13" text-anchor="middle" fill="#1d1d1d">40×55</text><text x="745.6" y="546.9" font-size="13" text-anchor="middle" fill="#1d1d1d">下:电池</text>
-<line x1="677.6" y1="439.4" x2="677.6" y2="558.4" stroke="#b02a2a" stroke-width="5"/>
-<text x="671.6" y="517.6" font-size="11" text-anchor="end" fill="#b02a2a">柜门</text>
-<line x1="704.8" y1="619.6" x2="704.8" y2="721.6" stroke="#333" stroke-width="3"/>
-<text x="718.4" y="694.4" font-size="11" text-anchor="start" fill="#1d1d1d">挂杆</text>
-<text x="494.0" y="363.0" font-size="15" text-anchor="middle" fill="#1d1d1d">过道 44</text>
-<rect x="718.4" y="283.0" width="153.0" height="149.6" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" />
-<rect x="738.8" y="300.0" width="112.2" height="115.6" rx="8" fill="#b8c0c6" stroke="#3a3a3a"/>
-<text x="794.9" y="354.2" font-size="13" text-anchor="middle" fill="#1d1d1d">水槽</text><text x="794.9" y="370.5" font-size="13" text-anchor="middle" fill="#1d1d1d">下：垃圾桶</text>
-<rect x="290.0" y="130.0" width="149.6" height="153.0" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" /><text x="364.8" y="194.8" font-size="13" text-anchor="middle" fill="#1d1d1d">台面</text><text x="364.8" y="211.1" font-size="13" text-anchor="middle" fill="#1d1d1d">下：抽屉</text><text x="364.8" y="227.3" font-size="13" text-anchor="middle" fill="#1d1d1d">宽44</text>
-<rect x="439.6" y="130.0" width="221.0" height="153.0" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" /><text x="550.1" y="202.9" font-size="13" text-anchor="middle" fill="#1d1d1d">炉子台面</text><text x="550.1" y="219.2" font-size="13" text-anchor="middle" fill="#1d1d1d">下：冰箱位 宽65</text>
-<rect x="660.6" y="130.0" width="210.8" height="153.0" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" /><text x="766.0" y="202.9" font-size="13" text-anchor="middle" fill="#1d1d1d">转角</text><text x="766.0" y="219.2" font-size="13" text-anchor="middle" fill="#1d1d1d">下：水桶</text>
+<line x1="381.8" y1="918.8" x2="381.8" y2="643.4" stroke="#3b2a12" stroke-width="5" />
+<line x1="551.8" y1="918.8" x2="551.8" y2="643.4" stroke="#3b2a12" stroke-width="5" />
+<line x1="721.8" y1="918.8" x2="721.8" y2="643.4" stroke="#3b2a12" stroke-width="5" />
+<line x1="698.0" y1="1061.6" x2="698.0" y2="918.8" stroke="#3b2a12" stroke-width="5" />
+<line x1="290.0" y1="643.4" x2="813.6" y2="643.4" stroke="#3b2a12" stroke-width="5" />
+<line x1="290.0" y1="1058.2" x2="698.0" y2="1058.2" stroke="#b02a2a" stroke-width="4" stroke-dasharray="10 5"/>
+<line x1="290.0" y1="922.2" x2="698.0" y2="922.2" stroke="#b02a2a" stroke-width="4" stroke-dasharray="10 5"/>
+<text x="755.8" y="983.5" font-size="12" text-anchor="middle" fill="#1d1d1d">脏衣格</text><text x="755.8" y="998.5" font-size="12" text-anchor="middle" fill="#1d1d1d">34×49</text>
+<text x="466.8" y="674.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold">粗线 = 竖板（床的腿）</text>
+<text x="494.0" y="905.2" font-size="12" text-anchor="middle" fill="#b02a2a">红色虚线 = 40×40 钢方管</text>
+<rect x="290.0" y="456.4" width="136.0" height="187.0" fill="#f4f4f1" stroke="#3a3a3a" stroke-width="1.2" /><text x="358.0" y="546.3" font-size="13" text-anchor="middle" fill="#1d1d1d">马桶</text><text x="358.0" y="562.6" font-size="13" text-anchor="middle" fill="#1d1d1d">高≤32</text>
+<rect x="426.0" y="456.4" width="251.6" height="187.0" fill="#c9a572" stroke="#3a3a3a" stroke-width="1.2" /><text x="551.8" y="546.0" font-size="14" text-anchor="middle" fill="#1d1d1d">座位箱内部</text><text x="551.8" y="563.5" font-size="14" text-anchor="middle" fill="#1d1d1d">74 × 55 × 高29</text>
+<rect x="677.6" y="456.4" width="136.0" height="187.0" fill="#c7a06c" stroke="#3a3a3a" stroke-width="2" /><text x="745.6" y="538.2" font-size="13" text-anchor="middle" fill="#1d1d1d">衣柜</text><text x="745.6" y="554.4" font-size="13" text-anchor="middle" fill="#1d1d1d">40×55</text><text x="745.6" y="570.7" font-size="13" text-anchor="middle" fill="#1d1d1d">下:电池</text>
+<line x1="677.6" y1="463.2" x2="677.6" y2="582.2" stroke="#b02a2a" stroke-width="5" />
+<text x="671.6" y="534.6" font-size="11" text-anchor="end" fill="#b02a2a">柜门</text>
+<text x="500.8" y="374.9" font-size="15" text-anchor="middle" fill="#1d1d1d">过道 51</text>
+<rect x="718.4" y="283.0" width="153.0" height="173.4" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" />
+<rect x="738.8" y="303.4" width="112.2" height="129.2" rx="8" fill="#b8c0c6" stroke="#3a3a3a"/>
+<text x="794.9" y="364.4" font-size="13" text-anchor="middle" fill="#1d1d1d">水槽</text><text x="794.9" y="380.7" font-size="13" text-anchor="middle" fill="#1d1d1d">下:垃圾桶</text>
+<rect x="290.0" y="130.0" width="149.6" height="153.0" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" /><text x="364.8" y="202.9" font-size="13" text-anchor="middle" fill="#1d1d1d">下:抽屉</text><text x="364.8" y="219.2" font-size="13" text-anchor="middle" fill="#1d1d1d">宽44</text>
+<rect x="439.6" y="130.0" width="221.0" height="153.0" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" /><text x="550.1" y="202.9" font-size="13" text-anchor="middle" fill="#1d1d1d">下:储物柜 宽65</text><text x="550.1" y="219.2" font-size="13" text-anchor="middle" fill="#1d1d1d">（以后可放冰箱）</text>
+<rect x="660.6" y="130.0" width="210.8" height="153.0" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" /><text x="766.0" y="202.9" font-size="13" text-anchor="middle" fill="#1d1d1d">转角</text><text x="766.0" y="219.2" font-size="13" text-anchor="middle" fill="#1d1d1d">下:水桶</text>
+<rect x="290.0" y="130.0" width="163.2" height="102.0" fill="none" stroke="#8a5a1c" stroke-width="2" stroke-dasharray="7 4"/>
+<rect x="657.2" y="130.0" width="214.2" height="102.0" fill="none" stroke="#8a5a1c" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="371.6" y="157.2" font-size="11" text-anchor="middle" fill="#8a5a1c">电器柜</text>
+<text x="766.0" y="157.2" font-size="11" text-anchor="middle" fill="#8a5a1c">电器柜</text>
+<text x="555.2" y="150.4" font-size="11" text-anchor="middle" fill="#2a6f9e">小窗</text>
 <rect x="154.0" y="136.8" width="136.0" height="139.4" fill="#b98b56" fill-opacity="0.35" stroke="#3a3a3a" stroke-dasharray="5 4"/>
 <text x="222.0" y="201.5" font-size="12" text-anchor="middle" fill="#1d1d1d">翻板桌</text><text x="222.0" y="216.5" font-size="12" text-anchor="middle" fill="#1d1d1d">（车外）</text>
 <rect x="317.2" y="82.4" width="190.4" height="40.8" fill="#5f6770" stroke="#3a3a3a" stroke-width="1.2" rx="6"/>
 <rect x="596.0" y="82.4" width="190.4" height="40.8" fill="#5f6770" stroke="#3a3a3a" stroke-width="1.2" rx="6"/>
 <text x="412.4" y="107.8" font-size="12" text-anchor="middle" fill="#fff">副驾座椅</text>
 <text x="691.2" y="107.8" font-size="12" text-anchor="middle" fill="#fff">驾驶座椅</text>
-<text x="269.6" y="313.6" font-size="13" text-anchor="end" fill="#6b6b6b" font-weight="bold">左门（进出）</text>
-<text x="891.8" y="313.6" font-size="13" text-anchor="start" fill="#6b6b6b" font-weight="bold">右门（拿水桶）</text>
-<line x1="290.0" y1="130.0" x2="290.0" y2="497.2" stroke="#2e7d32" stroke-width="5"/>
-<line x1="871.4" y1="130.0" x2="871.4" y2="432.6" stroke="#2e7d32" stroke-width="5"/>
+<text x="269.6" y="340.8" font-size="13" text-anchor="end" fill="#2e7d32" font-weight="bold">左门（进出）</text>
+<text x="891.8" y="340.8" font-size="13" text-anchor="start" fill="#2e7d32" font-weight="bold">右门</text>
+<text x="891.8" y="357.8" font-size="12" text-anchor="start" fill="#2e7d32">（拿水桶）</text>
+<line x1="290.0" y1="130.0" x2="290.0" y2="497.2" stroke="#2e7d32" stroke-width="5" />
+<line x1="871.4" y1="130.0" x2="871.4" y2="456.4" stroke="#2e7d32" stroke-width="5" />
 <text x="551.8" y="1092.2" font-size="15" text-anchor="middle" fill="#1d1d1d" font-weight="bold">尾门（头朝这边）</text>
-<line x1="290.0" y1="1123.6" x2="813.6" y2="1123.6" stroke="#b02a2a" stroke-width="1"/><line x1="290.0" y1="1118.6" x2="290.0" y2="1128.6" stroke="#b02a2a"/><line x1="813.6" y1="1118.6" x2="813.6" y2="1128.6" stroke="#b02a2a"/><text x="551.8" y="1118.6" font-size="13" text-anchor="middle" fill="#b02a2a">车内宽 154</text>
-<line x1="290.0" y1="1153.6" x2="677.6" y2="1153.6" stroke="#b02a2a" stroke-width="1"/><line x1="290.0" y1="1148.6" x2="290.0" y2="1158.6" stroke="#b02a2a"/><line x1="677.6" y1="1148.6" x2="677.6" y2="1158.6" stroke="#b02a2a"/><text x="483.8" y="1148.6" font-size="13" text-anchor="middle" fill="#b02a2a">114</text>
-<line x1="677.6" y1="1153.6" x2="813.6" y2="1153.6" stroke="#b02a2a" stroke-width="1"/><line x1="677.6" y1="1148.6" x2="677.6" y2="1158.6" stroke="#b02a2a"/><line x1="813.6" y1="1148.6" x2="813.6" y2="1158.6" stroke="#b02a2a"/><text x="745.6" y="1148.6" font-size="13" text-anchor="middle" fill="#b02a2a">40</text>
-<line x1="114.0" y1="619.6" x2="114.0" y2="1061.6" stroke="#b02a2a" stroke-width="1"/><line x1="109.0" y1="619.6" x2="119.0" y2="619.6" stroke="#b02a2a"/><line x1="109.0" y1="1061.6" x2="119.0" y2="1061.6" stroke="#b02a2a"/><text x="107.0" y="840.6" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 107.0 840.6)">固定床 130</text>
-<line x1="114.0" y1="432.6" x2="114.0" y2="619.6" stroke="#b02a2a" stroke-width="1"/><line x1="109.0" y1="432.6" x2="119.0" y2="432.6" stroke="#b02a2a"/><line x1="109.0" y1="619.6" x2="119.0" y2="619.6" stroke="#b02a2a"/><text x="107.0" y="526.1" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 107.0 526.1)">床脚 55</text>
-<line x1="114.0" y1="283.0" x2="114.0" y2="432.6" stroke="#b02a2a" stroke-width="1"/><line x1="109.0" y1="283.0" x2="119.0" y2="283.0" stroke="#b02a2a"/><line x1="109.0" y1="432.6" x2="119.0" y2="432.6" stroke="#b02a2a"/><text x="107.0" y="357.8" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 107.0 357.8)">过道 44</text>
-<line x1="114.0" y1="130.0" x2="114.0" y2="283.0" stroke="#b02a2a" stroke-width="1"/><line x1="109.0" y1="130.0" x2="119.0" y2="130.0" stroke="#b02a2a"/><line x1="109.0" y1="283.0" x2="119.0" y2="283.0" stroke="#b02a2a"/><text x="107.0" y="206.5" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 107.0 206.5)">厨房 45</text>
-<line x1="80.0" y1="211.6" x2="80.0" y2="1061.6" stroke="#b02a2a" stroke-width="1"/><line x1="75.0" y1="211.6" x2="85.0" y2="211.6" stroke="#b02a2a"/><line x1="75.0" y1="1061.6" x2="85.0" y2="1061.6" stroke="#b02a2a"/><text x="73.0" y="636.6" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 73.0 636.6)">木地板 250</text>
-<line x1="80.0" y1="130.0" x2="80.0" y2="211.6" stroke="#b02a2a" stroke-width="1"/><line x1="75.0" y1="130.0" x2="85.0" y2="130.0" stroke="#b02a2a"/><line x1="75.0" y1="211.6" x2="85.0" y2="211.6" stroke="#b02a2a"/><text x="73.0" y="170.8" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 73.0 170.8)">24</text>
-<line x1="813.6" y1="120.0" x2="871.4" y2="120.0" stroke="#b02a2a" stroke-width="1"/><line x1="813.6" y1="115.0" x2="813.6" y2="125.0" stroke="#b02a2a"/><line x1="871.4" y1="115.0" x2="871.4" y2="125.0" stroke="#b02a2a"/><text x="842.5" y="115.0" font-size="13" text-anchor="middle" fill="#b02a2a">17</text>
+<line x1="290.0" y1="1123.6" x2="813.6" y2="1123.6" stroke="#b02a2a" stroke-width="1" /><line x1="290.0" y1="1118.6" x2="290.0" y2="1128.6" stroke="#b02a2a" stroke-width="1" /><line x1="813.6" y1="1118.6" x2="813.6" y2="1128.6" stroke="#b02a2a" stroke-width="1" /><text x="551.8" y="1118.6" font-size="13" text-anchor="middle" fill="#b02a2a">车内宽 154</text>
+<line x1="290.0" y1="1153.6" x2="677.6" y2="1153.6" stroke="#b02a2a" stroke-width="1" /><line x1="290.0" y1="1148.6" x2="290.0" y2="1158.6" stroke="#b02a2a" stroke-width="1" /><line x1="677.6" y1="1148.6" x2="677.6" y2="1158.6" stroke="#b02a2a" stroke-width="1" /><text x="483.8" y="1148.6" font-size="13" text-anchor="middle" fill="#b02a2a">114</text>
+<line x1="677.6" y1="1153.6" x2="813.6" y2="1153.6" stroke="#b02a2a" stroke-width="1" /><line x1="677.6" y1="1148.6" x2="677.6" y2="1158.6" stroke="#b02a2a" stroke-width="1" /><line x1="813.6" y1="1148.6" x2="813.6" y2="1158.6" stroke="#b02a2a" stroke-width="1" /><text x="745.6" y="1148.6" font-size="13" text-anchor="middle" fill="#b02a2a">40</text>
+<line x1="114.0" y1="643.4" x2="114.0" y2="1061.6" stroke="#b02a2a" stroke-width="1" /><line x1="109.0" y1="643.4" x2="119.0" y2="643.4" stroke="#b02a2a" stroke-width="1" /><line x1="109.0" y1="1061.6" x2="119.0" y2="1061.6" stroke="#b02a2a" stroke-width="1" /><text x="107.0" y="852.5" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 107.0 852.5)">固定床 123</text>
+<line x1="114.0" y1="456.4" x2="114.0" y2="643.4" stroke="#b02a2a" stroke-width="1" /><line x1="109.0" y1="456.4" x2="119.0" y2="456.4" stroke="#b02a2a" stroke-width="1" /><line x1="109.0" y1="643.4" x2="119.0" y2="643.4" stroke="#b02a2a" stroke-width="1" /><text x="107.0" y="549.9" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 107.0 549.9)">座位箱 55</text>
+<line x1="114.0" y1="283.0" x2="114.0" y2="456.4" stroke="#b02a2a" stroke-width="1" /><line x1="109.0" y1="283.0" x2="119.0" y2="283.0" stroke="#b02a2a" stroke-width="1" /><line x1="109.0" y1="456.4" x2="119.0" y2="456.4" stroke="#b02a2a" stroke-width="1" /><text x="107.0" y="369.7" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 107.0 369.7)">过道 51</text>
+<line x1="114.0" y1="130.0" x2="114.0" y2="283.0" stroke="#b02a2a" stroke-width="1" /><line x1="109.0" y1="130.0" x2="119.0" y2="130.0" stroke="#b02a2a" stroke-width="1" /><line x1="109.0" y1="283.0" x2="119.0" y2="283.0" stroke="#b02a2a" stroke-width="1" /><text x="107.0" y="206.5" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 107.0 206.5)">厨房 45</text>
+<line x1="80.0" y1="211.6" x2="80.0" y2="1061.6" stroke="#b02a2a" stroke-width="1" /><line x1="75.0" y1="211.6" x2="85.0" y2="211.6" stroke="#b02a2a" stroke-width="1" /><line x1="75.0" y1="1061.6" x2="85.0" y2="1061.6" stroke="#b02a2a" stroke-width="1" /><text x="73.0" y="636.6" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 73.0 636.6)">木地板 250</text>
+<line x1="80.0" y1="130.0" x2="80.0" y2="211.6" stroke="#b02a2a" stroke-width="1" /><line x1="75.0" y1="130.0" x2="85.0" y2="130.0" stroke="#b02a2a" stroke-width="1" /><line x1="75.0" y1="211.6" x2="85.0" y2="211.6" stroke="#b02a2a" stroke-width="1" /><text x="73.0" y="170.8" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 73.0 170.8)">24</text>
+<line x1="813.6" y1="120.0" x2="871.4" y2="120.0" stroke="#b02a2a" stroke-width="1" /><line x1="813.6" y1="115.0" x2="813.6" y2="125.0" stroke="#b02a2a" stroke-width="1" /><line x1="871.4" y1="115.0" x2="871.4" y2="125.0" stroke="#b02a2a" stroke-width="1" /><text x="842.5" y="115.0" font-size="13" text-anchor="middle" fill="#b02a2a">17</text>
 </svg>
