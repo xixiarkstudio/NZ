@@ -28,6 +28,8 @@ FOOT = 62      # folding foot section (overhangs the seat box at night)
 BED_END = FIX + FOOT          # 185
 BOX_D = 55     # seat box / wardrobe depth
 BOX_END = FIX + BOX_D         # 175
+WARD_D = 35    # wardrobe depth along the van
+WARD_Y0 = BOX_END - WARD_D    # 143
 SEAT_H = 31    # seat box height (plus 3 cm fixed pad = 34)
 PAD = 3
 UP = MAT + 2 + PAD            # depth taken by the upright foot section
@@ -46,8 +48,8 @@ WIN = (52, 104, BENCH_H + 6, BENCH_H + 26)
 
 # suitcases lying flat: (name, x0, y0, size along x, size along y, thickness)
 CASES = [
-    ("28寸软箱", 29, 42, 48, 81, 29),
-    ("28寸黑色", 77, 42, 48, 81, 29),
+    ("28寸软箱", 27.8, 42, 48, 81, 29),
+    ("28寸黑色", 79.6, 42, 48, 81, 29),
     ("24寸", 5, 0, 66, 39, 31.5),
     ("20寸", 71, 0, 47, 42, 27),
 ]
@@ -158,7 +160,7 @@ def plan(mode):
                      extra='fill-opacity="0.7"'))
     if under:
         # supports
-        for xx in (27, 77, 127):
+        for xx in (25.9, 77.7, 129.5):
             o.append(line(X(xx), Y(42), X(xx), Y(FIX), "#3b2a12", 5))
         o.append(line(X(POCKET_X), Y(0), X(POCKET_X), Y(42), "#3b2a12", 5))
         o.append(line(X(0), Y(FIX), X(W), Y(FIX), "#3b2a12", 5))
@@ -169,6 +171,10 @@ def plan(mode):
         o.append(text(X(60), Y(46), "红色虚线 = 40×40 钢方管", 12, fill=C["dim"]))
         o.append(box(0, FIX, 40, BOX_END, C["toilet"], ["马桶", "高≤32"], 13))
         o.append(box(40, FIX, ADULT_W, BOX_END, C["ply2"], ["座位箱内部", "74 × 55 × 高29"], 14))
+        o.append(box(ADULT_W, FIX, W, WARD_Y0, C["ply2"], ["小格", "40×20"], 11))
+        for i, (cx, cy) in enumerate(((52, 70), (104, 70), (38, 12), (94, 12))):
+            o.append(f'<circle cx="{X(cx):.1f}" cy="{Y(cy):.1f}" r="13" fill="#ffffff" stroke="#b02a2a" stroke-width="2"/>')
+            o.append(text(X(cx), Y(cy) + 5, "①①②②"[i], 15, fill=C["dim"], bold=True))
     elif mode == "night":
         o.append(box(2, 2, ADULT_W - 1, FIX - 1, C["mat"], [f"大人床垫 114 × {FIX}"], 15, extra='fill-opacity="0.82"'))
         o.append(box(40, FIX, ADULT_W - 1, BED_END - 1, C["mat"], [f"床脚段 {FOOT}", f"（前{BED_END-BOX_END}厘米悬空）"], 13,
@@ -182,16 +188,17 @@ def plan(mode):
         o.append(box(0, FIX + UP, 40, BOX_END, C["toilet"], ["马桶", "（掀盖）"], 13))
         o.append(box(40, FIX + UP, ADULT_W, BOX_END, C["ply2"], ["座位 高34", "宽74 × 深38"], 14))
     if not under:
-        o.append(box(ADULT_W + 1, 2, W - 2, FIX - 1, C["mat2"], ["小珵", f"40×{FIX}"], 13, extra='fill-opacity="0.85"'))
+        o.append(box(ADULT_W, FIX, W, WARD_Y0, C["ply"], None))
+        o.append(box(ADULT_W + 1, 2, W - 2, WARD_Y0 - 1, C["mat2"], ["小珵", f"40×{WARD_Y0}"], 13, extra='fill-opacity="0.85"'))
         o.append(rect(X(W - 32), Y(32), 30 * S, 30 * S, "#ffffff", stroke="#b02a2a",
                       extra='stroke-dasharray="5 4" fill-opacity="0.6"'))
         o.append(text(X(W - 17), Y(15), "投衣口", 11, fill=C["dim"]))
-        o.append(line(X(ADULT_W + 8), Y(FIX), X(ADULT_W + 8), Y(FIX - 30), "#333", 3))
-        o.append(text(X(ADULT_W + 12), Y(FIX - 22), "挂杆", 11, anchor="start"))
+        o.append(line(X(ADULT_W + 8), Y(WARD_Y0), X(ADULT_W + 8), Y(WARD_Y0 - 30), "#333", 3))
+        o.append(text(X(ADULT_W + 12), Y(WARD_Y0 - 22), "挂杆", 11, anchor="start"))
     # wardrobe
-    o.append(box(ADULT_W, FIX, W, BOX_END, C["ward"], ["衣柜", "40×55", "下:电池"], 13, sw=2))
-    o.append(line(X(ADULT_W), Y(BOX_END - 2), X(ADULT_W), Y(FIX + UP + 1), "#b02a2a", 5))
-    o.append(text(X(ADULT_W) - 6, Y(FIX + 32), "柜门", 11, anchor="end", fill=C["dim"]))
+    o.append(box(ADULT_W, WARD_Y0, W, BOX_END, C["ward"], ["衣柜", "40×35", "下:电池"], 12, sw=2))
+    o.append(line(X(ADULT_W), Y(BOX_END - 2), X(ADULT_W), Y(WARD_Y0 + 2), "#b02a2a", 5))
+    o.append(text(X(ADULT_W) - 6, Y(WARD_Y0 + 16), "柜门", 11, anchor="end", fill=C["dim"]))
     # aisle
     aisle = KIT_Y - (BOX_END if mode != "night" else BED_END)
     o.append(mtext(X(62), Y((KIT_Y + (BOX_END if mode != "night" else BED_END)) / 2), [f"过道 {aisle}"], 15))
@@ -295,8 +302,8 @@ def side():
     o.append(box(FIX, 0, BOX_END, SEAT_H, C["ply2"], ["座位箱", "高31"], 13))
     o.append(box(FIX + UP, SEAT_H, BOX_END, SEAT_H + PAD, C["seat"]))
     # wardrobe outline
-    o.append(box(FIX, 0, BOX_END, H_SIDE, "none", None, extra='stroke-dasharray="7 5"', stroke="#8a6a3c"))
-    o.append(text(X(FIX + BOX_D / 2 + 10), Z(H_SIDE - 5), "衣柜（右侧，到顶）", 12, fill="#8a6a3c"))
+    o.append(box(WARD_Y0, 0, BOX_END, H_SIDE, "none", None, extra='stroke-dasharray="7 5"', stroke="#8a6a3c"))
+    o.append(text(X(WARD_Y0 + WARD_D / 2), Z(H_SIDE - 5), "衣柜（右侧）", 12, fill="#8a6a3c"))
     # kitchen
     T = BENCH_H - 3
     o.append(box(KIT_Y, 0, SEAT, T, C["kit"], ["厨房柜"], 13))
@@ -329,11 +336,12 @@ def side():
 
 # ------------------------------------------------------------------ kitchen elevation
 def kitchen():
-    S = 4.2
-    ox, oy = 140, 90
-    Wpx = int(ox + (W + STEP + 70 + 55) * S + 150)
-    Hpx = int(oy + H_MID * S + 110)
-    o = svg_open(Wpx, Hpx, "厨房正面（坐在座位上往车头看） 和 衣柜剖面")
+    S = 4.6
+    ox, oy = 130, 90
+    EW = W + STEP
+    Wpx = int(ox + (EW + 55 + 60 + 40 + 45) * S + 120)
+    Hpx = int(oy + H_MID * S + 420)
+    o = svg_open(Wpx, Hpx, "厨房细节：正面、剖面、每个柜子的尺寸；衣柜剖面")
 
     def X(x):
         return ox + x * S
@@ -350,73 +358,207 @@ def kitchen():
     def knob(x, z):
         return f'<circle cx="{X(x):.1f}" cy="{Z(z):.1f}" r="5" fill="#777" stroke="#333"/>'
 
+    def num(x, z, n):
+        return (f'<circle cx="{X(x):.1f}" cy="{Z(z):.1f}" r="14" fill="#ffffff" stroke="#b02a2a" stroke-width="2"/>'
+                + text(X(x), Z(z) + 6, n, 17, fill=C["dim"], bold=True))
+
     T = BENCH_H - 3
-    o.append(box(0, 0, W + STEP, H_SIDE, "#f6f4ef", stroke=C["wall"], sw=2.5))
+    TOPZ = H_SIDE - 1
+    o.append(text(X(EW / 2), Z(H_SIDE) - 42, "正面（坐在座位上往车头看）", 14, bold=True))
+    o.append(box(0, 0, EW, H_SIDE, "#f6f4ef", stroke=C["wall"], sw=2.5))
     for i in range(3):
-        o.append(box(2, 3 + i * 21.5, 42, 23 + i * 21.5, C["door"], ["抽屉"], 12))
-        o.append(knob(22, 19 + i * 21.5))
-    # cupboard (future fridge bay), two doors
+        o.append(box(2, 3 + i * 21.5, 42, 23 + i * 21.5, C["door"], [f"抽屉 内高16"], 11))
+        o.append(knob(22, 20 + i * 21.5))
+    o.append(num(8, 60, "1"))
     o.append(box(46, 3, 76.5, T - 2, C["door"], None))
     o.append(box(76.5, 3, 107, T - 2, C["door"], None))
     o.append(knob(73, 52))
     o.append(knob(80, 52))
-    o.append(mtext(X(76.5), Z(30), ["储物柜（两层搁板）", "内部 65 × 45 × 62", "以后可拆搁板放冰箱"], 12))
-    o.append(box(111, 3, SINK_X0 - 1, T - 2, C["door"], ["转角"], 12))
-    o.append(box(SINK_X0, 0, W + STEP, T, C["kit"], ["水槽柜（靠近你）", "下:带盖垃圾桶", "后面转角:水桶×2", "从右门拿"], 12,
-                 extra='fill-opacity="0.9"'))
-    o.append(box(0, T, W + STEP, BENCH_H, C["top"]))
-    o.append(box(SINK_X0 + 6, BENCH_H - 15, W + STEP - 6, BENCH_H, C["steel"], ["水槽 深15"], 11))
-    # window
-    o.append(box(WIN[0], WIN[2], WIN[1], WIN[3], "#cfe6f5", ["小窗 52×20", "（高度待定）"], 12))
-    # appliance cupboards with doors
-    o.append(box(0, BENCH_H, 48, GAR_Z1, C["door"], ["电器柜", "48 × 深30 × 高37", "空气炸锅/电煮锅"], 12))
-    o.append(knob(44, 88))
-    o.append(box(108, BENCH_H, W + STEP, GAR_Z1, C["door"], ["电器柜", "63 × 深30 × 高37", "净水壶/烧水壶"], 12))
-    o.append(knob(112, 88))
-    # top cupboard, three doors
-    for (x0, x1) in ((0, 57), (57, 114), (114, W + STEP)):
-        o.append(box(x0, GAR_Z1, x1, H_SIDE - 1, C["door"], ["顶柜"], 12))
-        o.append(knob((x0 + x1) / 2, GAR_Z1 + 4))
-    # flap table
+    for zz in (24, 45):
+        o.append(line(X(47), Z(zz), X(106), Z(zz), "#a08a5c", 1.5, 'stroke-dasharray="6 4"'))
+    o.append(mtext(X(76.5), Z(34), ["对开门，里面两层活动搁板"], 11))
+    o.append(num(52, 60, "2"))
+    o.append(box(111, 3, SINK_X0 - 1, T - 2, C["door"], None))
+    o.append(num(118, 60, "3"))
+    o.append(box(SINK_X0, 0, EW, T, C["kit"], ["水槽柜", "（门朝过道）"], 12, extra='fill-opacity="0.9"'))
+    o.append(num(SINK_X0 + 8, 40, "4"))
+    o.append(box(0, T, EW, BENCH_H, C["top"]))
+    o.append(box(SINK_X0 + 6, BENCH_H - 15, EW - 6, BENCH_H, C["steel"], ["水槽 深15"], 11))
+    # upper run: all closed, flush
+    o.append(box(0, BENCH_H, 48, GAR_Z1, C["door"], ["上翻门"], 12))
+    o.append(knob(24, BENCH_H + 4))
+    o.append(num(8, 100, "5"))
+    o.append(box(48, BENCH_H, 108, GAR_Z1, "#e9e2d2", None))
+    o.append(box(WIN[0], WIN[2], WIN[1], WIN[3], "#cfe6f5", ["小窗 52×20"], 12))
+    o.append(num(56, 100, "6"))
+    o.append(box(108, BENCH_H, EW, GAR_Z1, C["door"], ["上翻门"], 12))
+    o.append(knob(139, BENCH_H + 4))
+    o.append(num(116, 100, "7"))
+    for (x0, x1) in ((0, 57), (57, 114), (114, EW)):
+        o.append(box(x0, GAR_Z1, x1, TOPZ, C["door"], None))
+        o.append(knob((x0 + x1) / 2, GAR_Z1 + 3.5))
+    o.append(num(8, GAR_Z1 + 10, "8"))
     o.append(box(-22, 40, 0, 42, C["top"], None, extra='stroke-dasharray="5 4"'))
     o.append(text(X(-11), Z(46), "翻板", 11))
     o.append(text(X(-11), Z(52), "高度待定", 10, fill=C["dim"]))
     zb = Z(0) + 36
     o.append(dim_h(X(0), X(44), zb, "44"))
     o.append(dim_h(X(44), X(109), zb, "65"))
-    o.append(dim_h(X(109), X(W + STEP), zb, "62（含外伸17）"))
-    o.append(dim_v(X(0) - 100, Z(H_SIDE), Z(0), f"侧边车高 {H_SIDE}"))
-    o.append(dim_v(X(W + STEP) + 24, Z(BENCH_H), Z(0), f"台面 {BENCH_H}", side=1))
-    o.append(text(X(-8), Z(H_SIDE + 4), "左门", 12, anchor="end", fill="#2e7d32", bold=True))
-    o.append(text(X(W + STEP + 8), Z(H_SIDE + 4), "右门", 12, anchor="start", fill="#2e7d32", bold=True))
+    o.append(dim_h(X(109), X(EW), zb, "62（含外伸17）"))
+    o.append(dim_h(X(0), X(48), Z(H_SIDE) - 14, "48"))
+    o.append(dim_h(X(48), X(108), Z(H_SIDE) - 14, "60"))
+    o.append(dim_h(X(108), X(EW), Z(H_SIDE) - 14, "63"))
+    xl = X(0) - 34
+    o.append(dim_v(xl, Z(BENCH_H), Z(0), f"台面 {BENCH_H}"))
+    o.append(dim_v(xl, Z(GAR_Z1), Z(BENCH_H), "37"))
+    o.append(dim_v(xl, Z(TOPZ), Z(GAR_Z1), "19"))
+    o.append(dim_v(xl - 34, Z(H_SIDE), Z(0), f"侧边车高 {H_SIDE}"))
 
-    # wardrobe section
-    wx = W + STEP + 70
+    # ---- side section of the kitchen (depths)
+    sx = EW + 38
+
+    def SX(v):
+        return ox + (sx + v) * S
+
+    def sbox(a0, z0, a1, z1, fill, label=None, size=11, **kw):
+        s = rect(SX(a0), Z(z1), (a1 - a0) * S, (z1 - z0) * S, fill, **kw)
+        if label:
+            s += mtext(SX((a0 + a1) / 2), Z((z0 + z1) / 2), label, size)
+        return s
+    o.append(text(SX(22), Z(H_SIDE + 5), "侧面剖开", 14, bold=True))
+    o.append(line(SX(45), Z(0), SX(45), Z(H_SIDE), C["wall"], 3))
+    o.append(line(SX(-6), Z(0), SX(45), Z(0), C["wall"], 3))
+    o.append(sbox(0, 0, 45, T, C["kit"], ["下柜", "深45"]))
+    o.append(sbox(-1, T, 45, BENCH_H, C["top"]))
+    o.append(sbox(45 - GAR_D, BENCH_H, 45, GAR_Z1, C["door"], ["电器柜", "深30"]))
+    o.append(sbox(45 - TOP_D, GAR_Z1, 45, TOPZ, C["door"], ["顶柜", "深22"]))
+    o.append(dim_h(SX(0), SX(45 - GAR_D), Z(BENCH_H) - 8, "15"))
+    o.append(text(SX(7), Z(BENCH_H + 14), "台面", 10))
+    o.append(text(SX(7), Z(BENCH_H + 10), "前沿", 10))
+    o.append(text(SX(48), Z(60), "座椅背", 11, anchor="start", fill=C["wall"]))
+    o.append(dim_h(SX(0), SX(45), Z(0) + 36, "45"))
+
+    # ---- wardrobe section
+    wx = sx + 45 + 50
 
     def WX(v):
         return ox + (wx + v) * S
 
-    def wbox(a0, z0, a1, z1, fill, label=None, size=12, **kw):
+    def wbox(a0, z0, a1, z1, fill, label=None, size=11, **kw):
         s = rect(WX(a0), Z(z1), (a1 - a0) * S, (z1 - z0) * S, fill, **kw)
         if label:
             s += mtext(WX((a0 + a1) / 2), Z((z0 + z1) / 2), label, size)
         return s
-    o.append(text(WX(27), Z(H_SIDE + 5), "衣柜（从座位这边看）", 14, bold=True))
-    o.append(wbox(0, 0, 55, H_SIDE, C["ward"], None, sw=2))
-    o.append(wbox(2, 2, 53, 48, "#3d4a55", None))
-    o.append(wbox(5, 4, 31, 25, "#6f8fa6", ["电池1"], 11))
-    o.append(wbox(5, 26, 31, 47, "#8aa3b5", ["电池2", "（以后）"], 10))
-    o.append(wbox(34, 4, 51, 37, "#55636e", ["控制器", "保险盒"], 10))
-    o.append(wbox(0, 49, 55, 51, C["ply"]))
-    o.append(text(WX(57), Z(49), "活动底板", 11, anchor="start"))
-    o.append(text(WX(57), Z(25), "电器仓 高50", 11, anchor="start"))
-    for zz in (53, 77, 101):
-        o.append(wbox(3, zz, 52, zz + 21, C["door"], ["拉篮（叠放衣服）"], 11))
-    o.append(wbox(36, 39, 53, 47, "#111", None))
-    o.append(text(WX(57), Z(42), "电源面板", 11, anchor="start"))
-    o.append(text(WX(57), Z(37), "开关/USB/电量表", 10, anchor="start"))
+    o.append(text(WX(WARD_D / 2), Z(H_SIDE + 5), "衣柜（从座位这边看）", 14, bold=True))
+    o.append(wbox(0, 0, WARD_D, H_SIDE, C["ward"], None, sw=2))
+    o.append(wbox(2, 2, WARD_D - 2, 48, "#3d4a55", None))
+    o.append(wbox(4, 4, 21, 25, "#6f8fa6", ["电池1"], 10))
+    o.append(wbox(4, 26, 21, 47, "#8aa3b5", ["电池2"], 10))
+    o.append(wbox(23, 4, 32, 36, "#55636e", ["控", "制", "器"], 10))
+    o.append(wbox(0, 49, WARD_D, 51, C["ply"]))
+    for zz in (52.5, 71, 89.5, 108):
+        o.append(wbox(1.5, zz, WARD_D - 1.5, zz + 1.2, C["ply"]))
+        o.append(wbox(3, zz + 1.5, WARD_D - 3, zz + 16, "#b9c7d3", ["布艺收纳盒"], 10))
+    o.append(wbox(22, 39, 33, 47, "#111", None))
+    o.append(text(WX(WARD_D + 2), Z(42), "电源面板", 11, anchor="start"))
+    o.append(text(WX(WARD_D + 2), Z(49), "活动底板", 11, anchor="start"))
+    o.append(text(WX(WARD_D + 2), Z(25), "电器仓 高50", 11, anchor="start"))
+    o.append(text(WX(WARD_D + 2), Z(90), "四层固定搁板", 11, anchor="start"))
+    o.append(text(WX(WARD_D + 2), Z(84), "每层一个布盒", 11, anchor="start"))
+    o.append(text(WX(WARD_D + 2), Z(78), "约 36×31×15", 11, anchor="start"))
+    o.append(dim_h(WX(0), WX(WARD_D), Z(0) + 36, f"深 {WARD_D}"))
     o.append(dim_v(WX(0) - 12, Z(H_SIDE), Z(51), "衣物区 76"))
-    o.append(dim_h(WX(0), WX(55), Z(0) + 36, "深 55"))
+
+    # ---- table
+    rows = [
+        ("1", "抽屉柜", "44 × 45 × 67", "三个抽屉，每个内部约 宽39 × 深40 × 高16", "全拉出滑轨 + 按钮锁；放餐具、调料、小工具"),
+        ("2", "储物柜", "65 × 45 × 67", "内部 62.5 × 43 × 63，两层活动搁板", "对开门 + 按钮锁；放锅和重的电器；以后可拆搁板放冰箱"),
+        ("3", "转角水桶柜", "62 × 45 × 67", "清水桶、废水桶各一个，绑带固定", "站在车外从右门取；水泵和水管也在这里"),
+        ("4", "水槽柜", "45 × 54 × 67", "水槽 38 × 38 × 深15；下面净高约 48", "门朝过道；放带盖垃圾桶、清洁用品"),
+        ("5", "左电器柜", "48 × 30 × 37", "内部 45.5 × 28 × 34.5", "上翻门；底部防滑垫 + 3 厘米挡条"),
+        ("6", "小窗格", "60 × 30 × 37", "不放东西，只有小窗 52 × 20", "面板和左右柜门齐平；想全封可加一块活动挡板"),
+        ("7", "右电器柜", "63 × 30 × 37", "内部 60.5 × 28 × 34.5", "上翻门；放净水壶、烧水壶（高度待量）"),
+        ("8", "顶柜", "171 × 22 × 19", "内高约 16.5，三扇上翻门各 57 宽", "只放轻的东西；车顶两侧有弧度，要现场比着做"),
+    ]
+    ty = Z(0) + 86
+    cols = [X(-20), X(-8), X(26), X(64), X(152)]
+    heads = ["编号", "名称", "外尺寸（宽×深×高）", "里面", "门和用途"]
+    for cx, h in zip(cols, heads):
+        o.append(text(cx, ty, h, 14, anchor="start", bold=True))
+    o.append(line(cols[0], ty + 8, Wpx - 60, ty + 8, "#888", 1))
+    for i, r in enumerate(rows):
+        yy = ty + 34 + i * 30
+        for cx, v in zip(cols, r):
+            o.append(text(cx, yy, v, 13.5, anchor="start", fill=C["dim"] if cx == cols[0] else None))
+    o.append("</svg>")
+    return "\n".join(o)
+
+
+# ------------------------------------------------------------------ under-bed sections
+def underbed():
+    S = 5.0
+    ox, oy = 150, 110
+    Wpx = int(ox + W * S + 330)
+    Hpx = 1010
+    o = svg_open(Wpx, Hpx, "床下箱子怎么放（从尾门往里看）")
+    ZT = 62
+
+    def X(x):
+        return ox + x * S
+
+    def panel(y_off, title, tail):
+        def Z(z):
+            return oy + y_off + (ZT - z) * S
+
+        def box(x0, z0, x1, z1, fill, label=None, size=13, **kw):
+            s = rect(X(x0), Z(z1), (x1 - x0) * S, (z1 - z0) * S, fill, **kw)
+            if label:
+                s += mtext(X((x0 + x1) / 2), Z((z0 + z1) / 2), label, size)
+            return s
+        o.append(text(X(0), Z(ZT) - 12, title, 16, anchor="start", bold=True))
+        o.append(line(X(0), Z(0), X(W), Z(0), C["wall"], 3))
+        o.append(line(X(0), Z(0), X(0), Z(ZT - 4), C["wall"], 3))
+        o.append(line(X(W), Z(0), X(W), Z(ZT - 4), C["wall"], 3))
+        o.append(box(1, BED_H, ADULT_W - 1, BED_H + MAT, C["mat"], ["大人床垫"], 12, extra='fill-opacity="0.6"'))
+        o.append(box(ADULT_W + 1, BED_H, W - 1, BED_H + 6, C["mat2"], ["小珵"], 12, extra='fill-opacity="0.7"'))
+        o.append(box(0, BED_H - 1.8, W, BED_H, C["ply"]))
+        if tail:
+            o.append(box(0, BED_H - 5.8, POCKET_X, BED_H - 1.8, "#c9ced3", None))
+            o.append(text(X(60), Z(BED_H - 3.8) + 4, "40×40 钢方管横梁", 11))
+            n, x0, y0, dx, dy, th = CASES[2]
+            o.append(box(x0, 0, x0 + dx, th, C["case"], ["24寸", "宽66 × 厚31.5"], 13))
+            n, x0, y0, dx, dy, th = CASES[3]
+            o.append(box(x0, 0, x0 + dx, th, C["case"], ["20寸", "宽47 × 厚27"], 13))
+            o.append(box(POCKET_X, 0, POCKET_X + 1.8, BED_H - 1.8, C["ply"]))
+            o.append(box(POCKET_X + 3, 2, W - 2, 34, "#e8e8e8", ["脏衣袋", "32宽"], 12, extra='stroke-dasharray="5 4"'))
+            o.append(dim_v(X(0) - 20, Z(BED_H - 5.8), Z(0), "净高 34"))
+        else:
+            for x0 in (0, W - ARCH["w"]):
+                o.append(box(x0, 0, x0 + ARCH["w"], ARCH["h"], C["arch"], ["轮拱"], 12))
+            for xx in (25, 76.8, 128.6):
+                o.append(box(xx, 0, xx + 1.8, BED_H - 1.8, "#7a5a2c"))
+            for i in (0, 1):
+                n, x0, y0, dx, dy, th = CASES[i]
+                o.append(box(x0, 0, x0 + dx, th, C["case"], [n, "宽48 × 厚29"], 13))
+            o.append(box(1, ARCH["h"] + 1, 24, BED_H - 2.5, "#e8e8e8", ["侧槽", "23×20"], 11, extra='stroke-dasharray="5 4"'))
+            o.append(box(131, ARCH["h"] + 1, W - 1, BED_H - 2.5, "#e8e8e8", ["侧槽", "22×20"], 11, extra='stroke-dasharray="5 4"'))
+            o.append(text(X(77.7), Z(BED_H + 16), "三道竖板 = 床的腿", 13, fill="#7a5a2c", bold=True))
+            o.append(dim_h(X(26.8), X(76.8), Z(0) + 30, "巷道 50"))
+            o.append(dim_h(X(78.6), X(128.6), Z(0) + 30, "巷道 50"))
+        o.append(dim_v(X(W) + 24, Z(BED_H), Z(0), f"床面 {BED_H}", side=1))
+        return Z
+
+    panel(40, "A  尾门口这一排（离尾门 0 到 42 厘米）", True)
+    panel(430, "B  往里这一排（离尾门 42 到 123 厘米）", False)
+    tx = X(W) + 80
+    steps = ["放的顺序", "① 两个 28 寸竖着推到最里面，", "    各走一条巷道。", "② 24 寸、20 寸横放在尾门口。",
+             "③ 脏衣袋放右后角。", "", "拿的顺序", "要拿 28 寸，先把外面的", "24 寸或 20 寸拉出来。", "",
+             "注意", "24 寸和 28 寸放床下时不能", "扩容，扩容后塞不进。", "",
+             "每个箱子拴一根拉带，", "不用钻进去掏。"]
+    for i, t in enumerate(steps):
+        bold = t in ("放的顺序", "拿的顺序", "注意")
+        o.append(text(tx, oy + 60 + i * 26, t, 15 if bold else 14, anchor="start", bold=bold,
+                      fill=C["dim"] if bold else None))
     o.append("</svg>")
     return "\n".join(o)
 
@@ -498,9 +640,10 @@ def iso(mode):
                    P(W + STEP - 6, KIT_Y - 6, BENCH_H), P(SINK_X0 + 6, KIT_Y - 6, BENCH_H)], C["steel"]))
     lab(SINK_X0 + 22, (BOX_END + KIT_Y) / 2, BENCH_H, "水槽", 13, bold=True, dy=5)
     # wardrobe
-    box(ADULT_W, FIX, 0, W, BOX_END, H_SIDE, C["ward"], "衣柜")
-    face_x(ADULT_W, FIX + UP + 2, BOX_END - 2, BED_H + MAT + 2, H_SIDE - 4, shade(C["ward"], 1.12), "柜门")
-    face_x(ADULT_W, FIX + UP + 2, BOX_END - 2, SEAT_H + PAD + 1, BED_H + MAT, "#3d4a55", "电源面板", "#ffffff")
+    box(ADULT_W, WARD_Y0, 0, W, BOX_END, H_SIDE, C["ward"], "衣柜")
+    face_x(ADULT_W, WARD_Y0 + 2, BOX_END - 2, BED_H + MAT + 2, H_SIDE - 4, shade(C["ward"], 1.12), "柜门")
+    face_x(ADULT_W, WARD_Y0 + 2, BOX_END - 2, SEAT_H + PAD + 1, BED_H + MAT, "#3d4a55", "电源", "#ffffff")
+    box(ADULT_W, FIX, 0, W, WARD_Y0, BED_H, C["ply2"])
     # seat boxes
     box(40, FIX, 0, ADULT_W, BOX_END, SEAT_H, C["ply2"])
     box(40, FIX + (UP if mode == "day" else 0), SEAT_H, ADULT_W, BOX_END, SEAT_H + PAD, C["seat"])
@@ -527,11 +670,11 @@ def iso(mode):
     lab(137, 0, 18, "脏衣格", 12)
     # platform + mattresses
     box(0, 0, BED_H - 2, W, FIX, BED_H, C["ply"])
-    box(ADULT_W + 1, 1, BED_H, W - 1, FIX - 1, BED_H + 6, C["mat2"], f"小珵 40×{FIX}")
+    box(ADULT_W + 1, 1, BED_H, W - 1, WARD_Y0 - 1, BED_H + 6, C["mat2"], f"小珵 40×{WARD_Y0}")
     o.append(poly([P(W - 32, 2, BED_H + 6), P(W - 2, 2, BED_H + 6), P(W - 2, 32, BED_H + 6), P(W - 32, 32, BED_H + 6)],
                   "#ffffff", 0.55, "#b02a2a"))
     lab(W - 17, 17, BED_H + 6, "投衣口", 11, C["dim"])
-    r0, r1 = P(ADULT_W + 8, FIX, 112), P(ADULT_W + 8, FIX - 30, 112)
+    r0, r1 = P(ADULT_W + 8, WARD_Y0, 112), P(ADULT_W + 8, WARD_Y0 - 30, 112)
     o.append(line(r0[0], r0[1], r1[0], r1[1], "#333", 4))
     o.append(text(r1[0] + 6, r1[1] - 6, "挂杆", 12, anchor="start"))
     zt = BED_H + MAT
@@ -561,6 +704,7 @@ if __name__ == "__main__":
         "plan-under.svg": plan("under"),
         "side.svg": side(),
         "kitchen.svg": kitchen(),
+        "underbed.svg": underbed(),
         "view-day.svg": iso("day"),
         "view-night.svg": iso("night"),
     }
