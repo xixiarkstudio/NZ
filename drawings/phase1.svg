@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1520" viewBox="0 0 1700 1520" font-family="WenQuanYi Zen Hei, sans-serif">
+<rect width="1700" height="1520" fill="#fff"/>
+<text x="850.0" y="38.0" font-size="26" text-anchor="middle" fill="#1d1d1d" font-weight="bold">一天版的床：组装图和裁板图（全部按 Bunnings 能裁的尺寸）</text>
+<text x="397.2" y="94.0" font-size="17" text-anchor="middle" fill="#1d1d1d" font-weight="bold">① 俯视：竖板的位置（厘米）</text>
+<rect x="120.0" y="120.0" width="554.4" height="684.0" fill="#f4efe6" stroke="#6b6b6b" stroke-width="2.5" />
+<rect x="120.0" y="375.6" width="75.6" height="252.0" fill="#bdbdbd" stroke="#3a3a3a" stroke-width="1.2" fill-opacity="0.7"/>
+<text x="157.8" y="506.6" font-size="12" text-anchor="middle" fill="#1d1d1d">轮拱</text>
+<rect x="598.8" y="375.6" width="75.6" height="252.0" fill="#bdbdbd" stroke="#3a3a3a" stroke-width="1.2" fill-opacity="0.7"/>
+<text x="636.6" y="506.6" font-size="12" text-anchor="middle" fill="#1d1d1d">轮拱</text>
+<rect x="219.0" y="375.6" width="172.8" height="291.6" fill="#c9c2dd" stroke="#3a3a3a" stroke-width="1.2" stroke-dasharray="6 4" fill-opacity="0.55"/>
+<text x="305.4" y="526.4" font-size="13" text-anchor="middle" fill="#55498a">28寸</text>
+<rect x="405.5" y="375.6" width="172.8" height="291.6" fill="#c9c2dd" stroke="#3a3a3a" stroke-width="1.2" stroke-dasharray="6 4" fill-opacity="0.55"/>
+<text x="491.9" y="526.4" font-size="13" text-anchor="middle" fill="#55498a">28寸</text>
+<rect x="148.8" y="217.2" width="237.6" height="140.4" fill="#c9c2dd" stroke="#3a3a3a" stroke-width="1.2" stroke-dasharray="6 4" fill-opacity="0.55"/>
+<text x="267.6" y="292.4" font-size="13" text-anchor="middle" fill="#55498a">24寸</text>
+<rect x="465.6" y="206.4" width="169.2" height="151.2" fill="#c9c2dd" stroke="#3a3a3a" stroke-width="1.2" stroke-dasharray="6 4" fill-opacity="0.55"/>
+<text x="550.2" y="287.0" font-size="13" text-anchor="middle" fill="#55498a">20寸</text>
+<text x="307.2" y="744.2" font-size="12" text-anchor="middle" fill="#666">空位：鞋、椅子</text>
+<text x="490.8" y="744.2" font-size="12" text-anchor="middle" fill="#666">空位</text>
+<text x="631.2" y="719.0" font-size="12" text-anchor="middle" fill="#666">脏衣袋</text>
+<rect x="127.2" y="365.9" width="540.0" height="6.1" fill="#7a5a2c" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="264.0" y="361.4" font-size="13" text-anchor="middle" fill="#7a5a2c" font-weight="bold">C 横挡板</text>
+<rect x="210.0" y="372.0" width="6.1" height="432.0" fill="#8c6a36" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="203.0" y="768.0" font-size="15" text-anchor="end" fill="#8c6a36" font-weight="bold">D</text>
+<rect x="396.5" y="372.0" width="6.1" height="432.0" fill="#8c6a36" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="389.5" y="768.0" font-size="15" text-anchor="end" fill="#8c6a36" font-weight="bold">D</text>
+<rect x="583.0" y="372.0" width="6.1" height="432.0" fill="#8c6a36" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="576.0" y="768.0" font-size="15" text-anchor="end" fill="#8c6a36" font-weight="bold">D</text>
+<rect x="127.2" y="149.9" width="6.1" height="216.0" fill="#a5814a" stroke="#3a3a3a" stroke-width="1.2" />
+<rect x="441.1" y="149.9" width="6.1" height="216.0" fill="#a5814a" stroke="#3a3a3a" stroke-width="1.2" />
+<rect x="661.1" y="149.9" width="6.1" height="216.0" fill="#a5814a" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="139.2" y="184.8" font-size="15" text-anchor="start" fill="#a5814a" font-weight="bold">E</text>
+<text x="453.1" y="184.8" font-size="15" text-anchor="start" fill="#a5814a" font-weight="bold">E</text>
+<text x="655.1" y="184.8" font-size="15" text-anchor="end" fill="#a5814a" font-weight="bold">E</text>
+<rect x="127.2" y="588.0" width="540.0" height="216.0" fill="none" stroke="#b02a2a" stroke-width="2" stroke-dasharray="10 5"/>
+<rect x="127.2" y="372.0" width="540.0" height="216.0" fill="none" stroke="#b02a2a" stroke-width="2" stroke-dasharray="10 5"/>
+<rect x="127.2" y="156.0" width="324.0" height="216.0" fill="none" stroke="#b02a2a" stroke-width="2" stroke-dasharray="10 5"/>
+<rect x="451.2" y="156.0" width="216.0" height="216.0" fill="none" stroke="#b02a2a" stroke-width="2" stroke-dasharray="10 5"/>
+<text x="170.4" y="775.2" font-size="20" text-anchor="middle" fill="#b02a2a" font-weight="bold">A</text>
+<text x="170.4" y="415.2" font-size="20" text-anchor="middle" fill="#b02a2a" font-weight="bold">A</text>
+<text x="285.6" y="170.4" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">B1</text>
+<text x="559.2" y="170.4" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">B2</text>
+<text x="397.2" y="829.2" font-size="14" text-anchor="middle" fill="#1d1d1d" font-weight="bold">尾门（28 寸箱子从这里推进去）</text>
+<text x="397.2" y="114.0" font-size="13" text-anchor="middle" fill="#666">过道（24 寸、20 寸和收纳箱从这里塞到床脚下面）</text>
+<text x="686.4" y="593.0" font-size="13" text-anchor="start" fill="#b02a2a">固定床 120</text>
+<text x="686.4" y="269.0" font-size="13" text-anchor="start" fill="#b02a2a">床脚 60</text>
+<text x="210.0" y="860.0" font-size="12" text-anchor="middle" fill="#8c6a36">25</text>
+<text x="396.5" y="860.0" font-size="12" text-anchor="middle" fill="#8c6a36">77</text>
+<text x="583.0" y="860.0" font-size="12" text-anchor="middle" fill="#8c6a36">129</text>
+<text x="112.0" y="860.0" font-size="12" text-anchor="end" fill="#8c6a36">竖板离左墙</text>
+<text x="860.0" y="116.0" font-size="17" text-anchor="start" fill="#1d1d1d" font-weight="bold">② 第 1 张板（2400 × 1200 × 17 毫米）：床面</text>
+<rect x="860.0" y="130.0" width="720.0" height="360.0" fill="#f3f1ec" stroke="#6b6b6b" stroke-width="2.5" />
+<rect x="860.0" y="130.0" width="450.0" height="180.0" fill="#d9b98a" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1085.0" y="218.0" font-size="18" text-anchor="middle" fill="#1d1d1d" font-weight="bold">A</text>
+<text x="1085.0" y="237.0" font-size="13" text-anchor="middle" fill="#1d1d1d">1500 × 600</text>
+<rect x="860.0" y="310.0" width="450.0" height="180.0" fill="#d9b98a" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1085.0" y="398.0" font-size="18" text-anchor="middle" fill="#1d1d1d" font-weight="bold">A</text>
+<text x="1085.0" y="417.0" font-size="13" text-anchor="middle" fill="#1d1d1d">1500 × 600</text>
+<rect x="1310.0" y="130.0" width="270.0" height="180.0" fill="#e8cfa3" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1445.0" y="218.0" font-size="18" text-anchor="middle" fill="#1d1d1d" font-weight="bold">B1</text>
+<text x="1445.0" y="237.0" font-size="13" text-anchor="middle" fill="#1d1d1d">900 × 600</text>
+<rect x="1310.0" y="310.0" width="180.0" height="180.0" fill="#e8cfa3" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1400.0" y="398.0" font-size="18" text-anchor="middle" fill="#1d1d1d" font-weight="bold">B2</text>
+<text x="1400.0" y="417.0" font-size="13" text-anchor="middle" fill="#1d1d1d">600 × 600</text>
+<rect x="1490.0" y="310.0" width="90.0" height="180.0" fill="#e3e0d8" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1535.0" y="398.0" font-size="18" text-anchor="middle" fill="#1d1d1d" font-weight="bold">余</text>
+<text x="1535.0" y="417.0" font-size="13" text-anchor="middle" fill="#1d1d1d">300</text>
+<text x="860.0" y="512.0" font-size="13" text-anchor="start" fill="#555">裁 4 刀：先在 1500 处竖裁一刀；两半各在 600 处横裁一刀；</text>
+<text x="860.0" y="532.0" font-size="13" text-anchor="start" fill="#555">右下那块再在 600 处裁一刀，得到 B2。</text>
+<text x="860.0" y="596.0" font-size="17" text-anchor="start" fill="#1d1d1d" font-weight="bold">③ 第 2 张板（2400 × 1200 × 17 毫米）：竖板</text>
+<rect x="860.0" y="610.0" width="720.0" height="360.0" fill="#f3f1ec" stroke="#6b6b6b" stroke-width="2.5" />
+<rect x="860.0" y="610.0" width="360.0" height="120.0" fill="#8c6a36" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1040.0" y="668.0" font-size="18" text-anchor="middle" fill="#fff" font-weight="bold">D</text>
+<text x="1040.0" y="687.0" font-size="13" text-anchor="middle" fill="#fff">1200 × 400</text>
+<rect x="1220.0" y="610.0" width="360.0" height="120.0" fill="#8c6a36" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1400.0" y="668.0" font-size="18" text-anchor="middle" fill="#fff" font-weight="bold">D</text>
+<text x="1400.0" y="687.0" font-size="13" text-anchor="middle" fill="#fff">1200 × 400</text>
+<rect x="860.0" y="730.0" width="360.0" height="120.0" fill="#8c6a36" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1040.0" y="788.0" font-size="18" text-anchor="middle" fill="#fff" font-weight="bold">D</text>
+<text x="1040.0" y="807.0" font-size="13" text-anchor="middle" fill="#fff">1200 × 400</text>
+<rect x="1220.0" y="730.0" width="180.0" height="120.0" fill="#a5814a" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1310.0" y="788.0" font-size="18" text-anchor="middle" fill="#fff" font-weight="bold">E</text>
+<text x="1310.0" y="807.0" font-size="13" text-anchor="middle" fill="#fff">600 × 400</text>
+<rect x="1400.0" y="730.0" width="180.0" height="120.0" fill="#a5814a" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1490.0" y="788.0" font-size="18" text-anchor="middle" fill="#fff" font-weight="bold">E</text>
+<text x="1490.0" y="807.0" font-size="13" text-anchor="middle" fill="#fff">600 × 400</text>
+<rect x="860.0" y="850.0" width="450.0" height="120.0" fill="#7a5a2c" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1085.0" y="908.0" font-size="18" text-anchor="middle" fill="#fff" font-weight="bold">C</text>
+<text x="1085.0" y="927.0" font-size="13" text-anchor="middle" fill="#fff">1500 × 约394</text>
+<rect x="1310.0" y="850.0" width="180.0" height="120.0" fill="#a5814a" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1400.0" y="908.0" font-size="18" text-anchor="middle" fill="#fff" font-weight="bold">E</text>
+<text x="1400.0" y="927.0" font-size="13" text-anchor="middle" fill="#fff">600 × 约394</text>
+<rect x="1490.0" y="850.0" width="90.0" height="120.0" fill="#e3e0d8" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1535.0" y="908.0" font-size="18" text-anchor="middle" fill="#1d1d1d" font-weight="bold">余</text>
+<text x="1535.0" y="927.0" font-size="13" text-anchor="middle" fill="#1d1d1d">300</text>
+<text x="860.0" y="992.0" font-size="13" text-anchor="start" fill="#555">裁 7 刀：先横裁两刀成 3 条 400 宽的长条（第 3 条会因为锯缝窄几毫米），</text>
+<text x="860.0" y="1012.0" font-size="13" text-anchor="start" fill="#555">再按图截长度。窄的那条出 C 和中间那块 E，装的时候 E 下面垫平。</text>
+<text x="120.0" y="1050.0" font-size="17" text-anchor="start" fill="#1d1d1d" font-weight="bold">④ 要买的东西</text>
+<text x="120.0" y="1082.0" font-size="15" text-anchor="start" fill="#b02a2a" font-weight="bold">A</text>
+<text x="185.0" y="1082.0" font-size="14" text-anchor="start" fill="#1d1d1d">固定床面</text>
+<text x="390.0" y="1082.0" font-size="14" text-anchor="start" fill="#1d1d1d">1500 × 600</text>
+<text x="720.0" y="1082.0" font-size="14" text-anchor="start" fill="#1d1d1d">2 块</text>
+<text x="120.0" y="1110.0" font-size="15" text-anchor="start" fill="#b02a2a" font-weight="bold">B1 B2</text>
+<text x="185.0" y="1110.0" font-size="14" text-anchor="start" fill="#1d1d1d">床脚面板</text>
+<text x="390.0" y="1110.0" font-size="14" text-anchor="start" fill="#1d1d1d">900 × 600、600 × 600</text>
+<text x="720.0" y="1110.0" font-size="14" text-anchor="start" fill="#1d1d1d">各 1 块</text>
+<text x="120.0" y="1138.0" font-size="15" text-anchor="start" fill="#b02a2a" font-weight="bold">C</text>
+<text x="185.0" y="1138.0" font-size="14" text-anchor="start" fill="#1d1d1d">横挡板</text>
+<text x="390.0" y="1138.0" font-size="14" text-anchor="start" fill="#1d1d1d">1500 × 394</text>
+<text x="720.0" y="1138.0" font-size="14" text-anchor="start" fill="#1d1d1d">1 块</text>
+<text x="120.0" y="1166.0" font-size="15" text-anchor="start" fill="#b02a2a" font-weight="bold">D</text>
+<text x="185.0" y="1166.0" font-size="14" text-anchor="start" fill="#1d1d1d">纵向竖板</text>
+<text x="390.0" y="1166.0" font-size="14" text-anchor="start" fill="#1d1d1d">1200 × 400</text>
+<text x="720.0" y="1166.0" font-size="14" text-anchor="start" fill="#1d1d1d">3 块</text>
+<text x="120.0" y="1194.0" font-size="15" text-anchor="start" fill="#b02a2a" font-weight="bold">E</text>
+<text x="185.0" y="1194.0" font-size="14" text-anchor="start" fill="#1d1d1d">床脚支腿板</text>
+<text x="390.0" y="1194.0" font-size="14" text-anchor="start" fill="#1d1d1d">600 × 400</text>
+<text x="720.0" y="1194.0" font-size="14" text-anchor="start" fill="#1d1d1d">3 块</text>
+<text x="120.0" y="1222.0" font-size="15" text-anchor="start" fill="#b02a2a" font-weight="bold"></text>
+<text x="185.0" y="1222.0" font-size="14" text-anchor="start" fill="#1d1d1d">17 毫米胶合板</text>
+<text x="390.0" y="1222.0" font-size="14" text-anchor="start" fill="#1d1d1d">2400 × 1200</text>
+<text x="720.0" y="1222.0" font-size="14" text-anchor="start" fill="#1d1d1d">2 张</text>
+<text x="120.0" y="1250.0" font-size="15" text-anchor="start" fill="#b02a2a" font-weight="bold"></text>
+<text x="185.0" y="1250.0" font-size="14" text-anchor="start" fill="#1d1d1d">角码（约 50 毫米）</text>
+<text x="390.0" y="1250.0" font-size="14" text-anchor="start" fill="#1d1d1d"></text>
+<text x="720.0" y="1250.0" font-size="14" text-anchor="start" fill="#1d1d1d">30 个</text>
+<text x="120.0" y="1278.0" font-size="15" text-anchor="start" fill="#b02a2a" font-weight="bold"></text>
+<text x="185.0" y="1278.0" font-size="14" text-anchor="start" fill="#1d1d1d">平连接片（拼接床面用）</text>
+<text x="390.0" y="1278.0" font-size="14" text-anchor="start" fill="#1d1d1d"></text>
+<text x="720.0" y="1278.0" font-size="14" text-anchor="start" fill="#1d1d1d">4 片</text>
+<text x="120.0" y="1306.0" font-size="15" text-anchor="start" fill="#b02a2a" font-weight="bold"></text>
+<text x="185.0" y="1306.0" font-size="14" text-anchor="start" fill="#1d1d1d">木螺丝</text>
+<text x="390.0" y="1306.0" font-size="14" text-anchor="start" fill="#1d1d1d">8g × 16 一盒；8g × 40 一盒</text>
+<text x="720.0" y="1306.0" font-size="14" text-anchor="start" fill="#1d1d1d"></text>
+<text x="120.0" y="1334.0" font-size="15" text-anchor="start" fill="#b02a2a" font-weight="bold"></text>
+<text x="185.0" y="1334.0" font-size="14" text-anchor="start" fill="#1d1d1d">工具</text>
+<text x="390.0" y="1334.0" font-size="14" text-anchor="start" fill="#1d1d1d">充电电钻、3 毫米钻头、十字批头、铅笔、砂纸</text>
+<text x="720.0" y="1334.0" font-size="14" text-anchor="start" fill="#1d1d1d"></text>
+<text x="860.0" y="1050.0" font-size="17" text-anchor="start" fill="#1d1d1d" font-weight="bold">⑤ 组装顺序</text>
+<text x="860.0" y="1082.0" font-size="14" text-anchor="start" fill="#1d1d1d">1. 拆掉旧床架，清空，地板扫干净。</text>
+<text x="860.0" y="1110.0" font-size="14" text-anchor="start" fill="#1d1d1d">2. 用卷尺和铅笔在地板上画出每块竖板的位置（照图①）。</text>
+<text x="860.0" y="1138.0" font-size="14" text-anchor="start" fill="#1d1d1d">3. 立 3 块 D：每块两面各用 2 个角码固定在地板上。</text>
+<text x="860.0" y="1166.0" font-size="14" text-anchor="start" fill="#1d1d1d">4. 立 C：贴着 3 块 D 的前端，用角码把 C 和每块 D、和地板连起来。</text>
+<text x="860.0" y="1194.0" font-size="14" text-anchor="start" fill="#1d1d1d">5. 把两个 28 寸箱子从尾门推进去试一下，能进出再往下做。</text>
+<text x="860.0" y="1222.0" font-size="14" text-anchor="start" fill="#1d1d1d">6. 盖 2 块 A：先钻 3 毫米引孔，再用 40 的螺丝拧进 D 的板边，每条边 5 颗。</text>
+<text x="860.0" y="1250.0" font-size="14" text-anchor="start" fill="#1d1d1d">7. 两块 A 的接缝下面，在竖板之间装 4 片平连接片。</text>
+<text x="860.0" y="1278.0" font-size="14" text-anchor="start" fill="#1d1d1d">8. 立 3 块 E（中间那块放在 B1 和 B2 的接缝正下方），用角码固定。</text>
+<text x="860.0" y="1306.0" font-size="14" text-anchor="start" fill="#1d1d1d">9. 盖 B1、B2，螺丝拧进 E 和 C。</text>
+<text x="860.0" y="1334.0" font-size="14" text-anchor="start" fill="#1d1d1d">10. 外露的边用砂纸磨一下，铺上床垫。</text>
+<text x="860.0" y="1362.0" font-size="14" text-anchor="start" fill="#1d1d1d"></text>
+<text x="860.0" y="1390.0" font-size="14" text-anchor="start" fill="#b02a2a">进地板的螺丝只能用 16 毫米的，再长会打穿地板碰到车身铁皮。</text>
+<text x="860.0" y="1418.0" font-size="14" text-anchor="start" fill="#b02a2a">床面高约 42 厘米、宽 150、长 180；Queen 床垫铺上去，前面探出 10 厘米。</text>
+</svg>
