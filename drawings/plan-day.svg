@@ -20,11 +20,11 @@
 <rect x="681.0" y="578.8" width="125.8" height="476.0" fill="#a9bccb" stroke="#3a3a3a" stroke-width="1.2" fill-opacity="0.85"/><text x="743.9" y="813.2" font-size="13" text-anchor="middle" fill="#1d1d1d">小珵</text><text x="743.9" y="829.5" font-size="13" text-anchor="middle" fill="#1d1d1d">40×143</text>
 <rect x="704.8" y="952.8" width="102.0" height="102.0" fill="#ffffff" stroke="#b02a2a" stroke-width="1.2" stroke-dasharray="5 4" fill-opacity="0.6"/>
 <text x="755.8" y="1010.6" font-size="11" text-anchor="middle" fill="#b02a2a">投衣口</text>
-<line x1="704.8" y1="575.4" x2="704.8" y2="677.4" stroke="#333" stroke-width="3" />
-<text x="718.4" y="650.2" font-size="11" text-anchor="start" fill="#1d1d1d">挂杆</text>
-<rect x="677.6" y="456.4" width="136.0" height="119.0" fill="#c7a06c" stroke="#3a3a3a" stroke-width="2" /><text x="745.6" y="505.1" font-size="12" text-anchor="middle" fill="#1d1d1d">衣柜</text><text x="745.6" y="520.1" font-size="12" text-anchor="middle" fill="#1d1d1d">40×35</text><text x="745.6" y="535.1" font-size="12" text-anchor="middle" fill="#1d1d1d">下:电池</text>
-<line x1="677.6" y1="463.2" x2="677.6" y2="568.6" stroke="#b02a2a" stroke-width="5" />
-<text x="671.6" y="521.0" font-size="11" text-anchor="end" fill="#b02a2a">柜门</text>
+<line x1="725.2" y1="585.6" x2="725.2" y2="687.6" stroke="#333" stroke-width="3" />
+<text x="711.6" y="636.6" font-size="11" text-anchor="end" fill="#1d1d1d">挂杆</text>
+<rect x="677.6" y="456.4" width="136.0" height="119.0" fill="#c7a06c" stroke="#3a3a3a" stroke-width="2" /><text x="745.6" y="506.0" font-size="11" text-anchor="middle" fill="#1d1d1d">矮柜 高70</text><text x="745.6" y="519.8" font-size="11" text-anchor="middle" fill="#1d1d1d">顶面当台面</text><text x="745.6" y="533.5" font-size="11" text-anchor="middle" fill="#1d1d1d">下:电池</text>
+<rect x="711.6" y="575.4" width="102.0" height="479.4" fill="none" stroke="#8a5a1c" stroke-width="2.5" stroke-dasharray="8 4"/>
+<text x="762.6" y="806.6" font-size="12" text-anchor="middle" fill="#8a5a1c" transform="rotate(-90 762.6 806.6)" font-weight="bold">上方：吊柜（衣服）</text>
 <text x="500.8" y="374.9" font-size="15" text-anchor="middle" fill="#1d1d1d">过道 51</text>
 <rect x="718.4" y="283.0" width="153.0" height="173.4" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" />
 <rect x="738.8" y="303.4" width="112.2" height="129.2" rx="8" fill="#b8c0c6" stroke="#3a3a3a"/>
@@ -32,10 +32,8 @@
 <rect x="290.0" y="130.0" width="149.6" height="153.0" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" /><text x="364.8" y="202.9" font-size="13" text-anchor="middle" fill="#1d1d1d">下:抽屉</text><text x="364.8" y="219.2" font-size="13" text-anchor="middle" fill="#1d1d1d">宽44</text>
 <rect x="439.6" y="130.0" width="221.0" height="153.0" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" /><text x="550.1" y="202.9" font-size="13" text-anchor="middle" fill="#1d1d1d">下:储物柜 宽65</text><text x="550.1" y="219.2" font-size="13" text-anchor="middle" fill="#1d1d1d">（以后可放冰箱）</text>
 <rect x="660.6" y="130.0" width="210.8" height="153.0" fill="#e6d3b3" stroke="#3a3a3a" stroke-width="2" /><text x="766.0" y="202.9" font-size="13" text-anchor="middle" fill="#1d1d1d">转角</text><text x="766.0" y="219.2" font-size="13" text-anchor="middle" fill="#1d1d1d">下:水桶</text>
-<rect x="290.0" y="130.0" width="163.2" height="102.0" fill="none" stroke="#8a5a1c" stroke-width="2" stroke-dasharray="7 4"/>
-<rect x="657.2" y="130.0" width="214.2" height="102.0" fill="none" stroke="#8a5a1c" stroke-width="2" stroke-dasharray="7 4"/>
-<text x="371.6" y="157.2" font-size="11" text-anchor="middle" fill="#8a5a1c">电器柜</text>
-<text x="766.0" y="157.2" font-size="11" text-anchor="middle" fill="#8a5a1c">电器柜</text>
+<rect x="290.0" y="130.0" width="581.4" height="74.8" fill="none" stroke="#8a5a1c" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="392.0" y="157.2" font-size="11" text-anchor="middle" fill="#8a5a1c">上方：顶柜</text>
 <text x="555.2" y="150.4" font-size="11" text-anchor="middle" fill="#2a6f9e">小窗</text>
 <rect x="154.0" y="136.8" width="136.0" height="139.4" fill="#b98b56" fill-opacity="0.35" stroke="#3a3a3a" stroke-dasharray="5 4"/>
 <text x="222.0" y="201.5" font-size="12" text-anchor="middle" fill="#1d1d1d">翻板桌</text><text x="222.0" y="216.5" font-size="12" text-anchor="middle" fill="#1d1d1d">（车外）</text>
