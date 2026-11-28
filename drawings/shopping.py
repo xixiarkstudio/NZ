@@ -7,7 +7,7 @@ FONT = "WenQuanYi Zen Hei, Arial, sans-serif"
 
 ITEMS = [
     ("TIMBER", None, None, None),
-    ("17 mm structural plywood, 2400 x 1200", "x 2 sheets", "17毫米结构胶合板（18毫米也行）", "Please cut as shown on my cutting sheet."),
+    ("Structural plywood 17 mm (or 18 mm), UNTREATED, E0, 2400 x 1200", "x 2 sheets", "结构胶合板 17或18毫米，未做防腐处理，E0级", "Please cut as shown on my cutting sheet."),
     ("HARDWARE", None, None, None),
     ("Angle brackets, about 50 x 50 mm", "x 32", "角码", None),
     ("Flat mending plates, about 100 mm", "x 4", "平连接片", None),
@@ -19,7 +19,6 @@ ITEMS = [
     ("Combination square", "x 1", "直角尺", None),
     ("Sandpaper 80 grit and 120 grit + sanding block", "x 1 each", "砂纸和打磨块", None),
     ("Carpenter's pencil", "x 1", "木工铅笔", None),
-    ("Safety glasses", "x 2", "护目镜", None),
 ]
 
 
@@ -51,6 +50,7 @@ def build():
         "Could you please help me find these? My English is limited.",
         "Could you cut the two plywood sheets for me, as shown on my cutting sheet?",
         "Which driver bit fits these screws?",
+        "Is this plywood untreated and E0 (low formaldehyde)? It is for sleeping on.",
     ]
     rows.append(f'<rect x="60" y="{y-26}" width="{W-120}" height="36" fill="#7a5a2c"/>'
                 f'<text x="76" y="{y}" font-size="20" fill="#fff" font-weight="bold">QUESTIONS FOR STAFF</text>')
