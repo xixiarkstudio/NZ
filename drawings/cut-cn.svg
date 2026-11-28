@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1560" viewBox="0 0 1500 1560" font-family="WenQuanYi Zen Hei, Arial, sans-serif">
+<rect width="1500" height="1560" fill="#fff"/>
+<text x="750.0" y="40.0" font-size="26" text-anchor="middle" fill="#1d1d1d" font-weight="bold">裁板图（给 Bunnings）· 单位毫米</text>
+<text x="150.0" y="116.0" font-size="19" text-anchor="start" fill="#1d1d1d" font-weight="bold">第 1 张板：17 毫米胶合板 2400 × 1200</text>
+<rect x="150.0" y="150.0" width="1056.0" height="528.0" fill="#f3f1ec" stroke="#555" stroke-width="3" />
+<rect x="150.0" y="150.0" width="660.0" height="264.0" fill="#d9b98a" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="480.0" y="278.0" font-size="26" text-anchor="middle" fill="#1d1d1d" font-weight="bold">A</text>
+<text x="480.0" y="304.0" font-size="17" text-anchor="middle" fill="#1d1d1d">1500 x 600</text>
+<rect x="150.0" y="414.0" width="660.0" height="264.0" fill="#d9b98a" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="480.0" y="542.0" font-size="26" text-anchor="middle" fill="#1d1d1d" font-weight="bold">A</text>
+<text x="480.0" y="568.0" font-size="17" text-anchor="middle" fill="#1d1d1d">1500 x 600</text>
+<rect x="810.0" y="150.0" width="396.0" height="264.0" fill="#e8cfa3" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1008.0" y="278.0" font-size="26" text-anchor="middle" fill="#1d1d1d" font-weight="bold">B1</text>
+<text x="1008.0" y="304.0" font-size="17" text-anchor="middle" fill="#1d1d1d">900 x 600</text>
+<rect x="810.0" y="414.0" width="264.0" height="264.0" fill="#e8cfa3" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="942.0" y="542.0" font-size="26" text-anchor="middle" fill="#1d1d1d" font-weight="bold">B2</text>
+<text x="942.0" y="568.0" font-size="17" text-anchor="middle" fill="#1d1d1d">600 x 600</text>
+<rect x="1074.0" y="414.0" width="132.0" height="264.0" fill="#e3e0d8" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1140.0" y="542.0" font-size="26" text-anchor="middle" fill="#1d1d1d" font-weight="bold">余料</text>
+<text x="1140.0" y="568.0" font-size="17" text-anchor="middle" fill="#1d1d1d">300 x 600</text>
+<line x1="810.0" y1="150.0" x2="810.0" y2="678.0" stroke="#b02a2a" stroke-width="4" />
+<circle cx="810.0" cy="176.4" r="15" fill="#fff" stroke="#b02a2a" stroke-width="2.5"/>
+<text x="810.0" y="182.4" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">1</text>
+<line x1="150.0" y1="414.0" x2="810.0" y2="414.0" stroke="#b02a2a" stroke-width="4" />
+<circle cx="185.2" cy="414.0" r="15" fill="#fff" stroke="#b02a2a" stroke-width="2.5"/>
+<text x="185.2" y="420.0" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">2</text>
+<line x1="810.0" y1="414.0" x2="1206.0" y2="414.0" stroke="#b02a2a" stroke-width="4" />
+<circle cx="1175.2" cy="414.0" r="15" fill="#fff" stroke="#b02a2a" stroke-width="2.5"/>
+<text x="1175.2" y="420.0" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">3</text>
+<line x1="1074.0" y1="414.0" x2="1074.0" y2="678.0" stroke="#b02a2a" stroke-width="4" />
+<circle cx="1074.0" cy="647.2" r="15" fill="#fff" stroke="#b02a2a" stroke-width="2.5"/>
+<text x="1074.0" y="653.2" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">4</text>
+<line x1="150.0" y1="140.0" x2="1206.0" y2="140.0" stroke="#b02a2a" stroke-width="1" /><line x1="150.0" y1="135.0" x2="150.0" y2="145.0" stroke="#b02a2a" stroke-width="1" /><line x1="1206.0" y1="135.0" x2="1206.0" y2="145.0" stroke="#b02a2a" stroke-width="1" /><text x="678.0" y="135.0" font-size="13" text-anchor="middle" fill="#b02a2a">2400</text>
+<line x1="134.0" y1="150.0" x2="134.0" y2="678.0" stroke="#b02a2a" stroke-width="1" /><line x1="129.0" y1="150.0" x2="139.0" y2="150.0" stroke="#b02a2a" stroke-width="1" /><line x1="129.0" y1="678.0" x2="139.0" y2="678.0" stroke="#b02a2a" stroke-width="1" /><text x="127.0" y="414.0" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 127.0 414.0)">1200</text>
+<text x="150.0" y="706.0" font-size="15" text-anchor="start" fill="#333">4 刀，按红圈数字的顺序裁。</text>
+<text x="150.0" y="730.0" font-size="15" text-anchor="start" fill="#333">刀 1：离左边 1500。刀 2、3：离上边 600。刀 4：从刀 1 的切边量 600。</text>
+<text x="150.0" y="816.0" font-size="19" text-anchor="start" fill="#1d1d1d" font-weight="bold">第 2 张板：17 毫米胶合板 2400 × 1200</text>
+<rect x="150.0" y="850.0" width="1056.0" height="528.0" fill="#f3f1ec" stroke="#555" stroke-width="3" />
+<rect x="150.0" y="850.0" width="528.0" height="176.0" fill="#8c6a36" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="414.0" y="934.0" font-size="26" text-anchor="middle" fill="#fff" font-weight="bold">D</text>
+<text x="414.0" y="960.0" font-size="17" text-anchor="middle" fill="#fff">1200 x 400</text>
+<rect x="678.0" y="850.0" width="528.0" height="176.0" fill="#8c6a36" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="942.0" y="934.0" font-size="26" text-anchor="middle" fill="#fff" font-weight="bold">D</text>
+<text x="942.0" y="960.0" font-size="17" text-anchor="middle" fill="#fff">1200 x 400</text>
+<rect x="150.0" y="1026.0" width="528.0" height="176.0" fill="#8c6a36" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="414.0" y="1110.0" font-size="26" text-anchor="middle" fill="#fff" font-weight="bold">D</text>
+<text x="414.0" y="1136.0" font-size="17" text-anchor="middle" fill="#fff">1200 x 400</text>
+<rect x="678.0" y="1026.0" width="264.0" height="176.0" fill="#a5814a" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="810.0" y="1110.0" font-size="26" text-anchor="middle" fill="#fff" font-weight="bold">E</text>
+<text x="810.0" y="1136.0" font-size="17" text-anchor="middle" fill="#fff">600 x 400</text>
+<rect x="942.0" y="1026.0" width="264.0" height="176.0" fill="#a5814a" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1074.0" y="1110.0" font-size="26" text-anchor="middle" fill="#fff" font-weight="bold">E</text>
+<text x="1074.0" y="1136.0" font-size="17" text-anchor="middle" fill="#fff">600 x 400</text>
+<rect x="150.0" y="1202.0" width="660.0" height="176.0" fill="#7a5a2c" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="480.0" y="1286.0" font-size="26" text-anchor="middle" fill="#fff" font-weight="bold">C</text>
+<text x="480.0" y="1312.0" font-size="17" text-anchor="middle" fill="#fff">1500 x 400（余下的宽度）</text>
+<rect x="810.0" y="1202.0" width="264.0" height="176.0" fill="#a5814a" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="942.0" y="1286.0" font-size="26" text-anchor="middle" fill="#fff" font-weight="bold">E</text>
+<text x="942.0" y="1312.0" font-size="17" text-anchor="middle" fill="#fff">600 x 400</text>
+<rect x="1074.0" y="1202.0" width="132.0" height="176.0" fill="#c08a3e" stroke="#3a3a3a" stroke-width="1.2" />
+<text x="1140.0" y="1286.0" font-size="26" text-anchor="middle" fill="#1d1d1d" font-weight="bold">F</text>
+<text x="1140.0" y="1312.0" font-size="17" text-anchor="middle" fill="#1d1d1d">300 x 400</text>
+<line x1="150.0" y1="1026.0" x2="1206.0" y2="1026.0" stroke="#b02a2a" stroke-width="4" />
+<circle cx="176.4" cy="1026.0" r="15" fill="#fff" stroke="#b02a2a" stroke-width="2.5"/>
+<text x="176.4" y="1032.0" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">1</text>
+<line x1="150.0" y1="1202.0" x2="1206.0" y2="1202.0" stroke="#b02a2a" stroke-width="4" />
+<circle cx="176.4" cy="1202.0" r="15" fill="#fff" stroke="#b02a2a" stroke-width="2.5"/>
+<text x="176.4" y="1208.0" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">2</text>
+<line x1="678.0" y1="850.0" x2="678.0" y2="1026.0" stroke="#b02a2a" stroke-width="4" />
+<circle cx="678.0" cy="938.0" r="15" fill="#fff" stroke="#b02a2a" stroke-width="2.5"/>
+<text x="678.0" y="944.0" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">3</text>
+<line x1="678.0" y1="1026.0" x2="678.0" y2="1202.0" stroke="#b02a2a" stroke-width="4" />
+<circle cx="678.0" cy="1114.0" r="15" fill="#fff" stroke="#b02a2a" stroke-width="2.5"/>
+<text x="678.0" y="1120.0" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">4</text>
+<line x1="942.0" y1="1026.0" x2="942.0" y2="1202.0" stroke="#b02a2a" stroke-width="4" />
+<circle cx="942.0" cy="1114.0" r="15" fill="#fff" stroke="#b02a2a" stroke-width="2.5"/>
+<text x="942.0" y="1120.0" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">5</text>
+<line x1="810.0" y1="1202.0" x2="810.0" y2="1378.0" stroke="#b02a2a" stroke-width="4" />
+<circle cx="810.0" cy="1290.0" r="15" fill="#fff" stroke="#b02a2a" stroke-width="2.5"/>
+<text x="810.0" y="1296.0" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">6</text>
+<line x1="1074.0" y1="1202.0" x2="1074.0" y2="1378.0" stroke="#b02a2a" stroke-width="4" />
+<circle cx="1074.0" cy="1290.0" r="15" fill="#fff" stroke="#b02a2a" stroke-width="2.5"/>
+<text x="1074.0" y="1296.0" font-size="18" text-anchor="middle" fill="#b02a2a" font-weight="bold">7</text>
+<line x1="150.0" y1="840.0" x2="1206.0" y2="840.0" stroke="#b02a2a" stroke-width="1" /><line x1="150.0" y1="835.0" x2="150.0" y2="845.0" stroke="#b02a2a" stroke-width="1" /><line x1="1206.0" y1="835.0" x2="1206.0" y2="845.0" stroke="#b02a2a" stroke-width="1" /><text x="678.0" y="835.0" font-size="13" text-anchor="middle" fill="#b02a2a">2400</text>
+<line x1="134.0" y1="850.0" x2="134.0" y2="1378.0" stroke="#b02a2a" stroke-width="1" /><line x1="129.0" y1="850.0" x2="139.0" y2="850.0" stroke="#b02a2a" stroke-width="1" /><line x1="129.0" y1="1378.0" x2="139.0" y2="1378.0" stroke="#b02a2a" stroke-width="1" /><text x="127.0" y="1114.0" font-size="13" text-anchor="middle" fill="#b02a2a" transform="rotate(-90 127.0 1114.0)">1200</text>
+<text x="150.0" y="1406.0" font-size="15" text-anchor="start" fill="#333">7 刀。先裁刀 1、2，得到 3 条 400 宽的长条；再按图把每条截短。</text>
+<text x="150.0" y="1430.0" font-size="15" text-anchor="start" fill="#333">重要：前两条必须正好 400 宽。第 3 条会窄几毫米，没关系。</text>
+<text x="150.0" y="1500.0" font-size="15" text-anchor="start" fill="#1d1d1d" font-weight="bold">所有尺寸都是 100 毫米的整数；除两块 300 的余料外，没有短于 600 的板。18 毫米板也可以。</text>
+<text x="150.0" y="1528.0" font-size="15" text-anchor="start" fill="#1d1d1d">我要带走所有的板和余料。</text>
+</svg>
